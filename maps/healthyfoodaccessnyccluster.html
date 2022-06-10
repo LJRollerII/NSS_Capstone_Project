@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1311c5f3b8314a29bdf4c4bd3352941d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1311c5f3b8314a29bdf4c4bd3352941d" ></div>
+        
+</body>
+<script>    
+    
+            var map_1311c5f3b8314a29bdf4c4bd3352941d = L.map(
+                "map_1311c5f3b8314a29bdf4c4bd3352941d",
+                {
+                    center: [40.71, -74.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cdd1e28e13614c80a1576f26c1fef40a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1311c5f3b8314a29bdf4c4bd3352941d);
+        
+    
+            var marker_cluster_57f14d8a0aaa4ca0bb5877ecb0333919 = L.markerClusterGroup(
+                {}
+            );
+            map_1311c5f3b8314a29bdf4c4bd3352941d.addLayer(marker_cluster_57f14d8a0aaa4ca0bb5877ecb0333919);
+        
+    
+            var marker_08c1d77e0d614ccd8449b6b0504fb3fd = L.marker(
+                [40.636992, -74.076212],
+                {}
+            ).addTo(marker_cluster_57f14d8a0aaa4ca0bb5877ecb0333919);
+        
+    
+            var icon_ba939081e83849e1b8915b05365bf6af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "institution", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_08c1d77e0d614ccd8449b6b0504fb3fd.setIcon(icon_ba939081e83849e1b8915b05365bf6af);
+        
+    
+        var popup_188d11fe4e1147c9a2c3756d8c669b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d39c3c068fb94361bc95d2b8285bcb3a = $(`<div id="html_d39c3c068fb94361bc95d2b8285bcb3a" style="width: 100.0%; height: 100.0%;">Richmond</div>`)[0];
+            popup_188d11fe4e1147c9a2c3756d8c669b2d.setContent(html_d39c3c068fb94361bc95d2b8285bcb3a);
+        
+
+        marker_08c1d77e0d614ccd8449b6b0504fb3fd.bindPopup(popup_188d11fe4e1147c9a2c3756d8c669b2d)
+        ;
+
+        
+    
+</script>
