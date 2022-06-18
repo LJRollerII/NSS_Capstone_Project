@@ -1,0 +1,3497 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4c2c37ab07504114aa009fe543160248 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4c2c37ab07504114aa009fe543160248" ></div>
+        
+</body>
+<script>    
+    
+            var map_4c2c37ab07504114aa009fe543160248 = L.map(
+                "map_4c2c37ab07504114aa009fe543160248",
+                {
+                    center: [40.668155996297536, -73.91094339776227],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d31ddd438d344f14973ff0a8890b673f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4c2c37ab07504114aa009fe543160248);
+        
+    
+            var marker_cluster_3490acb4e25f424fbc771578be1d55a8 = L.markerClusterGroup(
+                {}
+            );
+            map_4c2c37ab07504114aa009fe543160248.addLayer(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var marker_ad109fe4a24a4aa0812b2f14757a1cbd = L.marker(
+                [40.670986, -73.908194],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_cb8a766d16b748918839516a9d19df10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ad109fe4a24a4aa0812b2f14757a1cbd.setIcon(icon_cb8a766d16b748918839516a9d19df10);
+        
+    
+        var popup_69629825e1f644ac988dc98e38c2687b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddd8da222dfd4a2ab68380e1d554dca4 = $(`<div id="html_ddd8da222dfd4a2ab68380e1d554dca4" style="width: 100.0%; height: 100.0%;">Teens for Food Justice Fresh Food Box & Farmstand at Brownsville Collaborative Middle School</div>`)[0];
+            popup_69629825e1f644ac988dc98e38c2687b.setContent(html_ddd8da222dfd4a2ab68380e1d554dca4);
+        
+
+        marker_ad109fe4a24a4aa0812b2f14757a1cbd.bindPopup(popup_69629825e1f644ac988dc98e38c2687b)
+        ;
+
+        
+    
+    
+            var marker_fc3130ac38ef4f0ea3038eba637eb54f = L.marker(
+                [40.667554, -73.910207],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_c9fd4880c62444cba803e30030d6e5cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fc3130ac38ef4f0ea3038eba637eb54f.setIcon(icon_c9fd4880c62444cba803e30030d6e5cf);
+        
+    
+        var popup_66c9656234e348cd8d67a6b0e4aa676d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53d450ba3ab54954a213ffed5737c637 = $(`<div id="html_53d450ba3ab54954a213ffed5737c637" style="width: 100.0%; height: 100.0%;">Isabahlia Farm Stand</div>`)[0];
+            popup_66c9656234e348cd8d67a6b0e4aa676d.setContent(html_53d450ba3ab54954a213ffed5737c637);
+        
+
+        marker_fc3130ac38ef4f0ea3038eba637eb54f.bindPopup(popup_66c9656234e348cd8d67a6b0e4aa676d)
+        ;
+
+        
+    
+    
+            var marker_be1ffc1111984ac5af74137f8a9080cc = L.marker(
+                [40.667377, -73.908214],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_9f4e514b91d04762963a7906fd64e807 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_be1ffc1111984ac5af74137f8a9080cc.setIcon(icon_9f4e514b91d04762963a7906fd64e807);
+        
+    
+        var popup_9c162aeab71b450a8fb21269dbea7ed4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_025add78c24943b996271a029787d123 = $(`<div id="html_025add78c24943b996271a029787d123" style="width: 100.0%; height: 100.0%;">Seeds in the Middle Fresh Food Box / Farmstand - Brownsville</div>`)[0];
+            popup_9c162aeab71b450a8fb21269dbea7ed4.setContent(html_025add78c24943b996271a029787d123);
+        
+
+        marker_be1ffc1111984ac5af74137f8a9080cc.bindPopup(popup_9c162aeab71b450a8fb21269dbea7ed4)
+        ;
+
+        
+    
+    
+            var marker_39de549f78fe4d8c957f03c17ea88ce2 = L.marker(
+                [40.657984, -73.901764],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_705b5d1bc9b34008899f0bd9a9bd88a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_39de549f78fe4d8c957f03c17ea88ce2.setIcon(icon_705b5d1bc9b34008899f0bd9a9bd88a8);
+        
+    
+        var popup_8ba50f4f59e14eee97707a1a8fc538cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84c8009f991648a9b5f0908ab4f03bc9 = $(`<div id="html_84c8009f991648a9b5f0908ab4f03bc9" style="width: 100.0%; height: 100.0%;">Isabahlia Farm Stand Winter Market</div>`)[0];
+            popup_8ba50f4f59e14eee97707a1a8fc538cb.setContent(html_84c8009f991648a9b5f0908ab4f03bc9);
+        
+
+        marker_39de549f78fe4d8c957f03c17ea88ce2.bindPopup(popup_8ba50f4f59e14eee97707a1a8fc538cb)
+        ;
+
+        
+    
+    
+            var marker_63bb5f6283fb4f758034ec9a0f572d22 = L.marker(
+                [40.662555, -73.90892],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_07fd04f8bbc24e9aa4399516e257b554 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_63bb5f6283fb4f758034ec9a0f572d22.setIcon(icon_07fd04f8bbc24e9aa4399516e257b554);
+        
+    
+        var popup_ca1592d44c6b4c77aded8b27eaa6fddc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5429192ebd024dc8ac99e146c2fce43f = $(`<div id="html_5429192ebd024dc8ac99e146c2fce43f" style="width: 100.0%; height: 100.0%;">Project EATS Rockaway Farm Stand & CSA pickup</div>`)[0];
+            popup_ca1592d44c6b4c77aded8b27eaa6fddc.setContent(html_5429192ebd024dc8ac99e146c2fce43f);
+        
+
+        marker_63bb5f6283fb4f758034ec9a0f572d22.bindPopup(popup_ca1592d44c6b4c77aded8b27eaa6fddc)
+        ;
+
+        
+    
+    
+            var marker_e8ebf7602d2b49088087533c46539770 = L.marker(
+                [40.663532, -73.902236],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_8a53f20c5626448784462e16f154106e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e8ebf7602d2b49088087533c46539770.setIcon(icon_8a53f20c5626448784462e16f154106e);
+        
+    
+        var popup_48667fe457a24d669394946fe5e8c1de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_120dddb42f3344429af7c3a59c318153 = $(`<div id="html_120dddb42f3344429af7c3a59c318153" style="width: 100.0%; height: 100.0%;">Isabahlia Farmers' Market</div>`)[0];
+            popup_48667fe457a24d669394946fe5e8c1de.setContent(html_120dddb42f3344429af7c3a59c318153);
+        
+
+        marker_e8ebf7602d2b49088087533c46539770.bindPopup(popup_48667fe457a24d669394946fe5e8c1de)
+        ;
+
+        
+    
+    
+            var marker_c32a8c6f432e4b04bf1f4f0c87205a65 = L.marker(
+                [40.675024, -73.915778],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_e6f78347cbd1460d934d3b63c8520710 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c32a8c6f432e4b04bf1f4f0c87205a65.setIcon(icon_e6f78347cbd1460d934d3b63c8520710);
+        
+    
+        var popup_da88df5a4c394358985171a3d9b28bf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cba8c512a574c88906af987b43cfe6d = $(`<div id="html_7cba8c512a574c88906af987b43cfe6d" style="width: 100.0%; height: 100.0%;">Seeds in the Middle Fresh Food Box / Farmstand - Ocean Hill- Brownsville Farmstand</div>`)[0];
+            popup_da88df5a4c394358985171a3d9b28bf0.setContent(html_7cba8c512a574c88906af987b43cfe6d);
+        
+
+        marker_c32a8c6f432e4b04bf1f4f0c87205a65.bindPopup(popup_da88df5a4c394358985171a3d9b28bf0)
+        ;
+
+        
+    
+    
+            var marker_dd86d24695494064a8d5f0089f148916 = L.marker(
+                [40.669264, -73.913554],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_dfb7af79af124c76b021c7536290659c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_dd86d24695494064a8d5f0089f148916.setIcon(icon_dfb7af79af124c76b021c7536290659c);
+        
+    
+        var popup_c436c7c98c7b484fad20307a5ae1cb01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee2c6b3ce08e44259edcd9530c03a6a8 = $(`<div id="html_ee2c6b3ce08e44259edcd9530c03a6a8" style="width: 100.0%; height: 100.0%;">Brownsville Pitkin Farmstand</div>`)[0];
+            popup_c436c7c98c7b484fad20307a5ae1cb01.setContent(html_ee2c6b3ce08e44259edcd9530c03a6a8);
+        
+
+        marker_dd86d24695494064a8d5f0089f148916.bindPopup(popup_c436c7c98c7b484fad20307a5ae1cb01)
+        ;
+
+        
+    
+    
+            var marker_66440777362e4c6aa49ab7d04feab15c = L.marker(
+                [40.801155, -73.959647],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_c43b9e01aec848efb205b5f362ed545e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_66440777362e4c6aa49ab7d04feab15c.setIcon(icon_c43b9e01aec848efb205b5f362ed545e);
+        
+    
+        var popup_d53a1295cb0f4eb487da5514b4dae1c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa0a2c454fc5459a975cadb6d3563b83 = $(`<div id="html_fa0a2c454fc5459a975cadb6d3563b83" style="width: 100.0%; height: 100.0%;">Morningside Park's Down to Earth Farmers' Market</div>`)[0];
+            popup_d53a1295cb0f4eb487da5514b4dae1c7.setContent(html_fa0a2c454fc5459a975cadb6d3563b83);
+        
+
+        marker_66440777362e4c6aa49ab7d04feab15c.bindPopup(popup_d53a1295cb0f4eb487da5514b4dae1c7)
+        ;
+
+        
+    
+    
+            var marker_0db2a0600cb64e4d987c2b5ef9a2ac04 = L.marker(
+                [40.781274, -73.975995],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_f5d94ec645934e98aae9ac29a248da5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0db2a0600cb64e4d987c2b5ef9a2ac04.setIcon(icon_f5d94ec645934e98aae9ac29a248da5e);
+        
+    
+        var popup_86ab1d669c8846ffad098f77837d639a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_672eb85739e143e2a76f0a6ce9463774 = $(`<div id="html_672eb85739e143e2a76f0a6ce9463774" style="width: 100.0%; height: 100.0%;">79th Street Greenmarket</div>`)[0];
+            popup_86ab1d669c8846ffad098f77837d639a.setContent(html_672eb85739e143e2a76f0a6ce9463774);
+        
+
+        marker_0db2a0600cb64e4d987c2b5ef9a2ac04.bindPopup(popup_86ab1d669c8846ffad098f77837d639a)
+        ;
+
+        
+    
+    
+            var marker_8ad18b6aac3446cbbe531832ae698598 = L.marker(
+                [40.793558, -73.967016],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_baa949bca0eb429596299833b68095cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8ad18b6aac3446cbbe531832ae698598.setIcon(icon_baa949bca0eb429596299833b68095cc);
+        
+    
+        var popup_67ae029c2f614f8ca0689faf9683ca6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_495479cd9ada420d8e5ffdf5d896ccbd = $(`<div id="html_495479cd9ada420d8e5ffdf5d896ccbd" style="width: 100.0%; height: 100.0%;">97th Street Greenmarket</div>`)[0];
+            popup_67ae029c2f614f8ca0689faf9683ca6a.setContent(html_495479cd9ada420d8e5ffdf5d896ccbd);
+        
+
+        marker_8ad18b6aac3446cbbe531832ae698598.bindPopup(popup_67ae029c2f614f8ca0689faf9683ca6a)
+        ;
+
+        
+    
+    
+            var marker_3f830a34eb2246eca04f435a954aee53 = L.marker(
+                [40.773876, -73.982226],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_66047ae960444e4b90a7b066c5f606ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3f830a34eb2246eca04f435a954aee53.setIcon(icon_66047ae960444e4b90a7b066c5f606ca);
+        
+    
+        var popup_a91080d8699f4f1f9588a8a87a13ee10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_253b777c27a0427abe4849936a917189 = $(`<div id="html_253b777c27a0427abe4849936a917189" style="width: 100.0%; height: 100.0%;">Tucker Square Greenmarket</div>`)[0];
+            popup_a91080d8699f4f1f9588a8a87a13ee10.setContent(html_253b777c27a0427abe4849936a917189);
+        
+
+        marker_3f830a34eb2246eca04f435a954aee53.bindPopup(popup_a91080d8699f4f1f9588a8a87a13ee10)
+        ;
+
+        
+    
+    
+            var marker_05e5987c41d44bc3b9fd9aee612536eb = L.marker(
+                [40.839882, -73.916783],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_a7d25f71ed0e42d9abba9e5341dde22f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_05e5987c41d44bc3b9fd9aee612536eb.setIcon(icon_a7d25f71ed0e42d9abba9e5341dde22f);
+        
+    
+        var popup_e9b6868864a540648c2e373be7903a93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d686669d4f04f529a005a12e50c0c8b = $(`<div id="html_2d686669d4f04f529a005a12e50c0c8b" style="width: 100.0%; height: 100.0%;">170 Farm Stand</div>`)[0];
+            popup_e9b6868864a540648c2e373be7903a93.setContent(html_2d686669d4f04f529a005a12e50c0c8b);
+        
+
+        marker_05e5987c41d44bc3b9fd9aee612536eb.bindPopup(popup_e9b6868864a540648c2e373be7903a93)
+        ;
+
+        
+    
+    
+            var marker_c744480a20cd4db797b8f89e0ec19850 = L.marker(
+                [40.842924, -73.909558],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_4a7a547cb7704c4a9835dabde8c2cf1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c744480a20cd4db797b8f89e0ec19850.setIcon(icon_4a7a547cb7704c4a9835dabde8c2cf1c);
+        
+    
+        var popup_18e1917f04c8402481b91e7794f9fbaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfff03832839493890ee58ada652ae5d = $(`<div id="html_bfff03832839493890ee58ada652ae5d" style="width: 100.0%; height: 100.0%;">Harvest Home Mt. Eden Farmers' Market</div>`)[0];
+            popup_18e1917f04c8402481b91e7794f9fbaa.setContent(html_bfff03832839493890ee58ada652ae5d);
+        
+
+        marker_c744480a20cd4db797b8f89e0ec19850.bindPopup(popup_18e1917f04c8402481b91e7794f9fbaa)
+        ;
+
+        
+    
+    
+            var marker_2bac4d21391646de94f684c3a024707a = L.marker(
+                [40.826835, -73.922621],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_bb1e70415e5e4de689cf643625e9ab53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2bac4d21391646de94f684c3a024707a.setIcon(icon_bb1e70415e5e4de689cf643625e9ab53);
+        
+    
+        var popup_e1052dbf7cd3456c9e7481ba2c23c003 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29efe1bbbcc243d295ace0c2dfe126f3 = $(`<div id="html_29efe1bbbcc243d295ace0c2dfe126f3" style="width: 100.0%; height: 100.0%;">Bronx Borough Hall Greenmarket</div>`)[0];
+            popup_e1052dbf7cd3456c9e7481ba2c23c003.setContent(html_29efe1bbbcc243d295ace0c2dfe126f3);
+        
+
+        marker_2bac4d21391646de94f684c3a024707a.bindPopup(popup_e1052dbf7cd3456c9e7481ba2c23c003)
+        ;
+
+        
+    
+    
+            var marker_532555531bd84ecda4faab078c043055 = L.marker(
+                [40.818013, -73.925185],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_38d7ffffbb4a429fa8b62d491a1fbc41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_532555531bd84ecda4faab078c043055.setIcon(icon_38d7ffffbb4a429fa8b62d491a1fbc41);
+        
+    
+        var popup_4c3db8e95ea04427be72b162a864b472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42a31dda20b0449b9cd9ffdd00f1e252 = $(`<div id="html_42a31dda20b0449b9cd9ffdd00f1e252" style="width: 100.0%; height: 100.0%;">Lincoln Hospital Greenmarket</div>`)[0];
+            popup_4c3db8e95ea04427be72b162a864b472.setContent(html_42a31dda20b0449b9cd9ffdd00f1e252);
+        
+
+        marker_532555531bd84ecda4faab078c043055.bindPopup(popup_4c3db8e95ea04427be72b162a864b472)
+        ;
+
+        
+    
+    
+            var marker_8a3c1de355e54fa79cdac4a5a4adc8cb = L.marker(
+                [40.821403, -73.925528],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_560921e8a05c4334b457ac35292ca1fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8a3c1de355e54fa79cdac4a5a4adc8cb.setIcon(icon_560921e8a05c4334b457ac35292ca1fc);
+        
+    
+        var popup_f89a5f85fa0d4e098f9f8c2ed5b7b35e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a2e3ef9c0ec48e19d615e30af80d803 = $(`<div id="html_7a2e3ef9c0ec48e19d615e30af80d803" style="width: 100.0%; height: 100.0%;">New Roots Community Farm Stand</div>`)[0];
+            popup_f89a5f85fa0d4e098f9f8c2ed5b7b35e.setContent(html_7a2e3ef9c0ec48e19d615e30af80d803);
+        
+
+        marker_8a3c1de355e54fa79cdac4a5a4adc8cb.bindPopup(popup_f89a5f85fa0d4e098f9f8c2ed5b7b35e)
+        ;
+
+        
+    
+    
+            var marker_cfa7dbf05a1c481a8e9689d2ddc3eeea = L.marker(
+                [40.832331, -73.91959],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_c732e641994e487e93c92546c628af1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cfa7dbf05a1c481a8e9689d2ddc3eeea.setIcon(icon_c732e641994e487e93c92546c628af1d);
+        
+    
+        var popup_d5a65403e3e64b61aa306f8249831e41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_773d4a56c8ff41b28ca357de21308145 = $(`<div id="html_773d4a56c8ff41b28ca357de21308145" style="width: 100.0%; height: 100.0%;">BronxWorks Farm Stand</div>`)[0];
+            popup_d5a65403e3e64b61aa306f8249831e41.setContent(html_773d4a56c8ff41b28ca357de21308145);
+        
+
+        marker_cfa7dbf05a1c481a8e9689d2ddc3eeea.bindPopup(popup_d5a65403e3e64b61aa306f8249831e41)
+        ;
+
+        
+    
+    
+            var marker_7ed98620ce2845cd8bd0759b1dc08f6c = L.marker(
+                [40.705799, -74.002572],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_166a9b9820b248748dde10a0fd20fc91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7ed98620ce2845cd8bd0759b1dc08f6c.setIcon(icon_166a9b9820b248748dde10a0fd20fc91);
+        
+    
+        var popup_264b4f9ed26f495f867e1ca9b472d72b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6adea73f1b024a4f82b93bbc3753553f = $(`<div id="html_6adea73f1b024a4f82b93bbc3753553f" style="width: 100.0%; height: 100.0%;">Fulton Stall Market</div>`)[0];
+            popup_264b4f9ed26f495f867e1ca9b472d72b.setContent(html_6adea73f1b024a4f82b93bbc3753553f);
+        
+
+        marker_7ed98620ce2845cd8bd0759b1dc08f6c.bindPopup(popup_264b4f9ed26f495f867e1ca9b472d72b)
+        ;
+
+        
+    
+    
+            var marker_a3892272c9244917874ff46c450ab99e = L.marker(
+                [40.711535, -74.010464],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_63e82f8a388e40378c246e6aafbd6961 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a3892272c9244917874ff46c450ab99e.setIcon(icon_63e82f8a388e40378c246e6aafbd6961);
+        
+    
+        var popup_186d211fe7224ae0b690aa57771ea2a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09997320bda94051aebefd317714219f = $(`<div id="html_09997320bda94051aebefd317714219f" style="width: 100.0%; height: 100.0%;">Greenmarket at Oculus Plaza</div>`)[0];
+            popup_186d211fe7224ae0b690aa57771ea2a3.setContent(html_09997320bda94051aebefd317714219f);
+        
+
+        marker_a3892272c9244917874ff46c450ab99e.bindPopup(popup_186d211fe7224ae0b690aa57771ea2a3)
+        ;
+
+        
+    
+    
+            var marker_8cf1e7bdc4a648759b3374f040514a3a = L.marker(
+                [40.704549, -74.01429],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_297bfd769b0b45829a9bd79ac1185c91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8cf1e7bdc4a648759b3374f040514a3a.setIcon(icon_297bfd769b0b45829a9bd79ac1185c91);
+        
+    
+        var popup_321142c3eb7d44eaa591fb6effa01769 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44337edd84c048878d89647487edb6db = $(`<div id="html_44337edd84c048878d89647487edb6db" style="width: 100.0%; height: 100.0%;">Bowling Green Greenmarket</div>`)[0];
+            popup_321142c3eb7d44eaa591fb6effa01769.setContent(html_44337edd84c048878d89647487edb6db);
+        
+
+        marker_8cf1e7bdc4a648759b3374f040514a3a.bindPopup(popup_321142c3eb7d44eaa591fb6effa01769)
+        ;
+
+        
+    
+    
+            var marker_6c61eb762323466e8ff397ad9625bce5 = L.marker(
+                [40.7016879, -74.01163113],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_338f80cbbef8455ab7840b9ae4eeb400 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6c61eb762323466e8ff397ad9625bce5.setIcon(icon_338f80cbbef8455ab7840b9ae4eeb400);
+        
+    
+        var popup_841b0a0467c74612943a1ea691e97bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0d838087f724401ba597a9ba44ac908 = $(`<div id="html_f0d838087f724401ba597a9ba44ac908" style="width: 100.0%; height: 100.0%;">Staten Island Ferry Whitehall Terminal Greenmarket</div>`)[0];
+            popup_841b0a0467c74612943a1ea691e97bb0.setContent(html_f0d838087f724401ba597a9ba44ac908);
+        
+
+        marker_6c61eb762323466e8ff397ad9625bce5.bindPopup(popup_841b0a0467c74612943a1ea691e97bb0)
+        ;
+
+        
+    
+    
+            var marker_edfed04e0ca548d5810b850bd2367632 = L.marker(
+                [40.716303, -74.010966],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_3ee0f0972812491aa1edfa6e17d15146 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_edfed04e0ca548d5810b850bd2367632.setIcon(icon_3ee0f0972812491aa1edfa6e17d15146);
+        
+    
+        var popup_541418189a3746278b34dc75a221f7b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_feee6354bb9747ac9e246dad85e8b7b9 = $(`<div id="html_feee6354bb9747ac9e246dad85e8b7b9" style="width: 100.0%; height: 100.0%;">Tribeca Greenmarket</div>`)[0];
+            popup_541418189a3746278b34dc75a221f7b3.setContent(html_feee6354bb9747ac9e246dad85e8b7b9);
+        
+
+        marker_edfed04e0ca548d5810b850bd2367632.bindPopup(popup_541418189a3746278b34dc75a221f7b3)
+        ;
+
+        
+    
+    
+            var marker_433cc0d6c48c4a2f9baf778075c2fbad = L.marker(
+                [40.714165, -74.006309],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_211e755346fd4d4a9b4374177b6240dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_433cc0d6c48c4a2f9baf778075c2fbad.setIcon(icon_211e755346fd4d4a9b4374177b6240dc);
+        
+    
+        var popup_dbc6f27f3e5b4e94aa94b098c47ed43f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48ff22a8fa1f40a48dcfb8d6170ba7a0 = $(`<div id="html_48ff22a8fa1f40a48dcfb8d6170ba7a0" style="width: 100.0%; height: 100.0%;">City Hall Greenmarket</div>`)[0];
+            popup_dbc6f27f3e5b4e94aa94b098c47ed43f.setContent(html_48ff22a8fa1f40a48dcfb8d6170ba7a0);
+        
+
+        marker_433cc0d6c48c4a2f9baf778075c2fbad.bindPopup(popup_dbc6f27f3e5b4e94aa94b098c47ed43f)
+        ;
+
+        
+    
+    
+            var marker_27ab7cf6397d47a09b7aa8ca7e035bfb = L.marker(
+                [40.749811, -73.861668],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_fe9a6f01667a4cf5af859ef3f7ec2b85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_27ab7cf6397d47a09b7aa8ca7e035bfb.setIcon(icon_fe9a6f01667a4cf5af859ef3f7ec2b85);
+        
+    
+        var popup_060a1f2a689b4710b31b1a9f3f375c30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d46a7b21ad9d46b78c334e7f9235c1c6 = $(`<div id="html_d46a7b21ad9d46b78c334e7f9235c1c6" style="width: 100.0%; height: 100.0%;">Corona Greenmarket</div>`)[0];
+            popup_060a1f2a689b4710b31b1a9f3f375c30.setContent(html_d46a7b21ad9d46b78c334e7f9235c1c6);
+        
+
+        marker_27ab7cf6397d47a09b7aa8ca7e035bfb.bindPopup(popup_060a1f2a689b4710b31b1a9f3f375c30)
+        ;
+
+        
+    
+    
+            var marker_a9972cf106f44c45841a57405163e104 = L.marker(
+                [40.745794, -73.885489],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_cd222e1121184bf7a7cda604949adadd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a9972cf106f44c45841a57405163e104.setIcon(icon_cd222e1121184bf7a7cda604949adadd);
+        
+    
+        var popup_0bcd612f9c58491d9405142a9fd2aa27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7850ac079b3641eda5952967b5958951 = $(`<div id="html_7850ac079b3641eda5952967b5958951" style="width: 100.0%; height: 100.0%;">Elmhurst Hospital Greenmarket</div>`)[0];
+            popup_0bcd612f9c58491d9405142a9fd2aa27.setContent(html_7850ac079b3641eda5952967b5958951);
+        
+
+        marker_a9972cf106f44c45841a57405163e104.bindPopup(popup_0bcd612f9c58491d9405142a9fd2aa27)
+        ;
+
+        
+    
+    
+            var marker_1b784620cea64bd3b1e7c92d63aa7d69 = L.marker(
+                [40.88503, -73.843146],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_7319cdd3dad5412c89cfc60e5e7f6c5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1b784620cea64bd3b1e7c92d63aa7d69.setIcon(icon_7319cdd3dad5412c89cfc60e5e7f6c5c);
+        
+    
+        var popup_8b24331cf68449198226b4e6c8513e9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1615e3dc0ff4425b9314f20e9ccf9789 = $(`<div id="html_1615e3dc0ff4425b9314f20e9ccf9789" style="width: 100.0%; height: 100.0%;">Eastchester Farmstand</div>`)[0];
+            popup_8b24331cf68449198226b4e6c8513e9f.setContent(html_1615e3dc0ff4425b9314f20e9ccf9789);
+        
+
+        marker_1b784620cea64bd3b1e7c92d63aa7d69.bindPopup(popup_8b24331cf68449198226b4e6c8513e9f)
+        ;
+
+        
+    
+    
+            var marker_9c1f89b828ce4bfabe8332f506791f0c = L.marker(
+                [40.90152, -73.846937],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_306184d598b34afc97d2f296da6419db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9c1f89b828ce4bfabe8332f506791f0c.setIcon(icon_306184d598b34afc97d2f296da6419db);
+        
+    
+        var popup_3bd5af0177044d4c9f736ea9a26eb982 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c03d06c7fe0948a7ac842ce8dcd70cb4 = $(`<div id="html_c03d06c7fe0948a7ac842ce8dcd70cb4" style="width: 100.0%; height: 100.0%;">Bissel Gardens Farmers Market</div>`)[0];
+            popup_3bd5af0177044d4c9f736ea9a26eb982.setContent(html_c03d06c7fe0948a7ac842ce8dcd70cb4);
+        
+
+        marker_9c1f89b828ce4bfabe8332f506791f0c.bindPopup(popup_3bd5af0177044d4c9f736ea9a26eb982)
+        ;
+
+        
+    
+    
+            var marker_30067b862f4044fcba6c1115e1dc72b7 = L.marker(
+                [40.595612, -73.776551],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_bfda7b6b90204099bf84cbe760e0cb60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_30067b862f4044fcba6c1115e1dc72b7.setIcon(icon_bfda7b6b90204099bf84cbe760e0cb60);
+        
+    
+        var popup_266bae983233463f95e9701a57275c74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f805ab1b9df840a389d85bff24709d8e = $(`<div id="html_f805ab1b9df840a389d85bff24709d8e" style="width: 100.0%; height: 100.0%;">Far Rockaway Farmstand</div>`)[0];
+            popup_266bae983233463f95e9701a57275c74.setContent(html_f805ab1b9df840a389d85bff24709d8e);
+        
+
+        marker_30067b862f4044fcba6c1115e1dc72b7.bindPopup(popup_266bae983233463f95e9701a57275c74)
+        ;
+
+        
+    
+    
+            var marker_ad0d5c4c2c444a01aeb3d466761b891d = L.marker(
+                [40.59129, -73.802314],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_b8ef240b3bf74a61831c6110a1ed6139 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ad0d5c4c2c444a01aeb3d466761b891d.setIcon(icon_b8ef240b3bf74a61831c6110a1ed6139);
+        
+    
+        var popup_67d0e21681424cf1b5c6d59cc7dc94eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f433d2eca9d4ebc90d41ebcb65e7bc6 = $(`<div id="html_5f433d2eca9d4ebc90d41ebcb65e7bc6" style="width: 100.0%; height: 100.0%;">Edgemere Farm Market</div>`)[0];
+            popup_67d0e21681424cf1b5c6d59cc7dc94eb.setContent(html_5f433d2eca9d4ebc90d41ebcb65e7bc6);
+        
+
+        marker_ad0d5c4c2c444a01aeb3d466761b891d.bindPopup(popup_67d0e21681424cf1b5c6d59cc7dc94eb)
+        ;
+
+        
+    
+    
+            var marker_d3d5bf7533df44c2b5cb6a17ec15a4ff = L.marker(
+                [40.593313, -73.79166],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_f03868910aea4f839c52bc521d0c7419 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d3d5bf7533df44c2b5cb6a17ec15a4ff.setIcon(icon_f03868910aea4f839c52bc521d0c7419);
+        
+    
+        var popup_987baf1df5954db7b025706f23bb5386 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57bdb55fa41146f5837943841307783f = $(`<div id="html_57bdb55fa41146f5837943841307783f" style="width: 100.0%; height: 100.0%;">Joseph Addabbo FHC Farm Stand</div>`)[0];
+            popup_987baf1df5954db7b025706f23bb5386.setContent(html_57bdb55fa41146f5837943841307783f);
+        
+
+        marker_d3d5bf7533df44c2b5cb6a17ec15a4ff.bindPopup(popup_987baf1df5954db7b025706f23bb5386)
+        ;
+
+        
+    
+    
+            var marker_db38f5673dbe4f259195fcfa1ad54b74 = L.marker(
+                [40.594492, -73.788077],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_8f0cefb56e76489f94ebe0084e01c48c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_db38f5673dbe4f259195fcfa1ad54b74.setIcon(icon_8f0cefb56e76489f94ebe0084e01c48c);
+        
+    
+        var popup_247e8fffef704096b7d3484db2c76c2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df9a32addb274d13818411d0a2274e39 = $(`<div id="html_df9a32addb274d13818411d0a2274e39" style="width: 100.0%; height: 100.0%;">Rockaway Youth Task Force Youth Market</div>`)[0];
+            popup_247e8fffef704096b7d3484db2c76c2f.setContent(html_df9a32addb274d13818411d0a2274e39);
+        
+
+        marker_db38f5673dbe4f259195fcfa1ad54b74.bindPopup(popup_247e8fffef704096b7d3484db2c76c2f)
+        ;
+
+        
+    
+    
+            var marker_0207b013dacc49b5a95d0aa4b0233067 = L.marker(
+                [40.719219, -73.952479],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_a8a3282ed170417286c1727686a24d30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0207b013dacc49b5a95d0aa4b0233067.setIcon(icon_a8a3282ed170417286c1727686a24d30);
+        
+    
+        var popup_18b0783d4c704d198da7db149a4cbda5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7992deda8f434b8295c3913ffe617d5c = $(`<div id="html_7992deda8f434b8295c3913ffe617d5c" style="width: 100.0%; height: 100.0%;">McCarren Park Greenmarket</div>`)[0];
+            popup_18b0783d4c704d198da7db149a4cbda5.setContent(html_7992deda8f434b8295c3913ffe617d5c);
+        
+
+        marker_0207b013dacc49b5a95d0aa4b0233067.bindPopup(popup_18b0783d4c704d198da7db149a4cbda5)
+        ;
+
+        
+    
+    
+            var marker_683cc9a9a97b4a8287a61e59caef1ad9 = L.marker(
+                [40.725617, -73.944497],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_0cd201cadd3d449c9e2280d528b0ce44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_683cc9a9a97b4a8287a61e59caef1ad9.setIcon(icon_0cd201cadd3d449c9e2280d528b0ce44);
+        
+    
+        var popup_90e4213c606e4911b8a24a56a6520a58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79abec8628ff4a3796a504901a228849 = $(`<div id="html_79abec8628ff4a3796a504901a228849" style="width: 100.0%; height: 100.0%;">McGolrick Park's Down to Earth Farmers's Market</div>`)[0];
+            popup_90e4213c606e4911b8a24a56a6520a58.setContent(html_79abec8628ff4a3796a504901a228849);
+        
+
+        marker_683cc9a9a97b4a8287a61e59caef1ad9.bindPopup(popup_90e4213c606e4911b8a24a56a6520a58)
+        ;
+
+        
+    
+    
+            var marker_6a159dc846684824a0ea23af79cfba15 = L.marker(
+                [40.702345, -73.942381],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_4e11612d979f4492bf82543b0f031d50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6a159dc846684824a0ea23af79cfba15.setIcon(icon_4e11612d979f4492bf82543b0f031d50);
+        
+    
+        var popup_418884fa77bb49f496c15917c3e3b096 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e21796ef321243ae9319360725895572 = $(`<div id="html_e21796ef321243ae9319360725895572" style="width: 100.0%; height: 100.0%;">Graham Avenue Farmers' Market</div>`)[0];
+            popup_418884fa77bb49f496c15917c3e3b096.setContent(html_e21796ef321243ae9319360725895572);
+        
+
+        marker_6a159dc846684824a0ea23af79cfba15.bindPopup(popup_418884fa77bb49f496c15917c3e3b096)
+        ;
+
+        
+    
+    
+            var marker_4106ca88de1a4069bf28a0d178947c73 = L.marker(
+                [40.700726, -73.941932],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_43d66ee7151a464680467dea5ceb983f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4106ca88de1a4069bf28a0d178947c73.setIcon(icon_43d66ee7151a464680467dea5ceb983f);
+        
+    
+        var popup_f99d7c3dd9b2415e87954722977c9b79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fec5cf6c932c4211a3dd4edc56d88575 = $(`<div id="html_fec5cf6c932c4211a3dd4edc56d88575" style="width: 100.0%; height: 100.0%;">Woodhull Hospital Farmstand</div>`)[0];
+            popup_f99d7c3dd9b2415e87954722977c9b79.setContent(html_fec5cf6c932c4211a3dd4edc56d88575);
+        
+
+        marker_4106ca88de1a4069bf28a0d178947c73.bindPopup(popup_f99d7c3dd9b2415e87954722977c9b79)
+        ;
+
+        
+    
+    
+            var marker_1d82fe369f924abe8c3525ea2b92a63c = L.marker(
+                [40.715385, -73.967441],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_823386a5625144b29862ec20fa0736ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1d82fe369f924abe8c3525ea2b92a63c.setIcon(icon_823386a5625144b29862ec20fa0736ff);
+        
+    
+        var popup_3d409e4096a44d5bbc9b8109837cf572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a5643f144ea42f497c05f329d1d6766 = $(`<div id="html_5a5643f144ea42f497c05f329d1d6766" style="width: 100.0%; height: 100.0%;">Domino Park Greenmarket</div>`)[0];
+            popup_3d409e4096a44d5bbc9b8109837cf572.setContent(html_5a5643f144ea42f497c05f329d1d6766);
+        
+
+        marker_1d82fe369f924abe8c3525ea2b92a63c.bindPopup(popup_3d409e4096a44d5bbc9b8109837cf572)
+        ;
+
+        
+    
+    
+            var marker_f8009982e09c4317b0a056c7c0ee931b = L.marker(
+                [40.706998, -73.961364],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_c234a271d2b04e59824cd773c9b657e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f8009982e09c4317b0a056c7c0ee931b.setIcon(icon_c234a271d2b04e59824cd773c9b657e1);
+        
+    
+        var popup_e02439b20c3d49cfbd12616a4cc7d6bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55c19459d230489caaa379dec81f5603 = $(`<div id="html_55c19459d230489caaa379dec81f5603" style="width: 100.0%; height: 100.0%;">South Williamsburg Greenmarket</div>`)[0];
+            popup_e02439b20c3d49cfbd12616a4cc7d6bc.setContent(html_55c19459d230489caaa379dec81f5603);
+        
+
+        marker_f8009982e09c4317b0a056c7c0ee931b.bindPopup(popup_e02439b20c3d49cfbd12616a4cc7d6bc)
+        ;
+
+        
+    
+    
+            var marker_751df050cd6642f1a85a6cd484a40024 = L.marker(
+                [40.590649, -73.969298],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_9522323e6d614ed9b06bb3d2b7fc688f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_751df050cd6642f1a85a6cd484a40024.setIcon(icon_9522323e6d614ed9b06bb3d2b7fc688f);
+        
+    
+        var popup_8fcbb2267e224f30bcf30fa5422c0d86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba6102687b5e4303968aa60d0afe7506 = $(`<div id="html_ba6102687b5e4303968aa60d0afe7506" style="width: 100.0%; height: 100.0%;">Edible Schoolyard NYC's Farm Stand at PS 216</div>`)[0];
+            popup_8fcbb2267e224f30bcf30fa5422c0d86.setContent(html_ba6102687b5e4303968aa60d0afe7506);
+        
+
+        marker_751df050cd6642f1a85a6cd484a40024.bindPopup(popup_8fcbb2267e224f30bcf30fa5422c0d86)
+        ;
+
+        
+    
+    
+            var marker_61cfc3fdd7074b5f9ddae4212e129ee5 = L.marker(
+                [40.853237, -73.891742],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_62650e20f5b5493a88741a960c1c82fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_61cfc3fdd7074b5f9ddae4212e129ee5.setIcon(icon_62650e20f5b5493a88741a960c1c82fd);
+        
+    
+        var popup_06d6259d9945428f810c3aeb805e9f95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bf8333968374824888b0ec360cbe770 = $(`<div id="html_9bf8333968374824888b0ec360cbe770" style="width: 100.0%; height: 100.0%;">St. Barnabas Hospital Farm Stand & C.S.A.</div>`)[0];
+            popup_06d6259d9945428f810c3aeb805e9f95.setContent(html_9bf8333968374824888b0ec360cbe770);
+        
+
+        marker_61cfc3fdd7074b5f9ddae4212e129ee5.bindPopup(popup_06d6259d9945428f810c3aeb805e9f95)
+        ;
+
+        
+    
+    
+            var marker_8144b56bcdde4d1c8548c2210897e2da = L.marker(
+                [40.846487, -73.894337],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_641b1048086d419b9b182fefc202e3af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8144b56bcdde4d1c8548c2210897e2da.setIcon(icon_641b1048086d419b9b182fefc202e3af);
+        
+    
+        var popup_16da569a7c9c4e2283fcef928d5aafe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bd438a508ec44a48eafd60f6d77ac8a = $(`<div id="html_4bd438a508ec44a48eafd60f6d77ac8a" style="width: 100.0%; height: 100.0%;">La Familia Verde Farmers' Market</div>`)[0];
+            popup_16da569a7c9c4e2283fcef928d5aafe0.setContent(html_4bd438a508ec44a48eafd60f6d77ac8a);
+        
+
+        marker_8144b56bcdde4d1c8548c2210897e2da.bindPopup(popup_16da569a7c9c4e2283fcef928d5aafe0)
+        ;
+
+        
+    
+    
+            var marker_5cee172f20fe47e8b878b1e6a03b547f = L.marker(
+                [40.865684, -73.883312],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_6cd6008a5adf4ca3959158f869ffe319 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5cee172f20fe47e8b878b1e6a03b547f.setIcon(icon_6cd6008a5adf4ca3959158f869ffe319);
+        
+    
+        var popup_38e3d772938f4d16a08f2adbbea8f936 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fde9f2af6ddd44d4bbd0acac8a70dba4 = $(`<div id="html_fde9f2af6ddd44d4bbd0acac8a70dba4" style="width: 100.0%; height: 100.0%;">Morning Glory Market at the New York Botanical Gardens</div>`)[0];
+            popup_38e3d772938f4d16a08f2adbbea8f936.setContent(html_fde9f2af6ddd44d4bbd0acac8a70dba4);
+        
+
+        marker_5cee172f20fe47e8b878b1e6a03b547f.bindPopup(popup_38e3d772938f4d16a08f2adbbea8f936)
+        ;
+
+        
+    
+    
+            var marker_6e5260c33b8044d28a967976e4773448 = L.marker(
+                [40.843546, -73.889755],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_ff487791c81d47ae97af756f0c74b13d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6e5260c33b8044d28a967976e4773448.setIcon(icon_ff487791c81d47ae97af756f0c74b13d);
+        
+    
+        var popup_6a093a808a8a4cb1a32f111fa8c2b4aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f597db064d664a51b16fab992d87f0a0 = $(`<div id="html_f597db064d664a51b16fab992d87f0a0" style="width: 100.0%; height: 100.0%;">Whitney Young, Jr. Campus Go!Healthy Food Box</div>`)[0];
+            popup_6a093a808a8a4cb1a32f111fa8c2b4aa.setContent(html_f597db064d664a51b16fab992d87f0a0);
+        
+
+        marker_6e5260c33b8044d28a967976e4773448.bindPopup(popup_6a093a808a8a4cb1a32f111fa8c2b4aa)
+        ;
+
+        
+    
+    
+            var marker_24a314a212fb4416b093eafc627c9fbb = L.marker(
+                [40.68106, -73.996528],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_bef6db407de540848928f7c870de22db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_24a314a212fb4416b093eafc627c9fbb.setIcon(icon_bef6db407de540848928f7c870de22db);
+        
+    
+        var popup_9c4799eccd9643c28cbb405dfff83eab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd41b1f973f646e293adf57453329799 = $(`<div id="html_fd41b1f973f646e293adf57453329799" style="width: 100.0%; height: 100.0%;">Carroll Gardens Greenmarket</div>`)[0];
+            popup_9c4799eccd9643c28cbb405dfff83eab.setContent(html_fd41b1f973f646e293adf57453329799);
+        
+
+        marker_24a314a212fb4416b093eafc627c9fbb.bindPopup(popup_9c4799eccd9643c28cbb405dfff83eab)
+        ;
+
+        
+    
+    
+            var marker_b1c25079c3544409a1d5e18567d23f08 = L.marker(
+                [40.672524, -74.00871],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_c0d4a0f6a7104cb48009eb23656ab440 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b1c25079c3544409a1d5e18567d23f08.setIcon(icon_c0d4a0f6a7104cb48009eb23656ab440);
+        
+    
+        var popup_add15308bc234ee5a2833b14c7b9c515 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b669fd979490475ca2d06753a4bdea0e = $(`<div id="html_b669fd979490475ca2d06753a4bdea0e" style="width: 100.0%; height: 100.0%;">Red Hook Farm Stand</div>`)[0];
+            popup_add15308bc234ee5a2833b14c7b9c515.setContent(html_b669fd979490475ca2d06753a4bdea0e);
+        
+
+        marker_b1c25079c3544409a1d5e18567d23f08.bindPopup(popup_add15308bc234ee5a2833b14c7b9c515)
+        ;
+
+        
+    
+    
+            var marker_709d65ecb4f64f7aba231295b253832b = L.marker(
+                [40.672194, -73.983785],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_537159ffa345431b89b77e6d0d78c148 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_709d65ecb4f64f7aba231295b253832b.setIcon(icon_537159ffa345431b89b77e6d0d78c148);
+        
+    
+        var popup_18f467802b104b17b615a15fdfa7f25a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b59d66dce80942a59606007c2775ef62 = $(`<div id="html_b59d66dce80942a59606007c2775ef62" style="width: 100.0%; height: 100.0%;">Park Slope's Down to Earth Farmers' Market</div>`)[0];
+            popup_18f467802b104b17b615a15fdfa7f25a.setContent(html_b59d66dce80942a59606007c2775ef62);
+        
+
+        marker_709d65ecb4f64f7aba231295b253832b.bindPopup(popup_18f467802b104b17b615a15fdfa7f25a)
+        ;
+
+        
+    
+    
+            var marker_ca92dd9935b340d28b0ac285464de9bb = L.marker(
+                [40.882178, -73.88691],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_314223fbf0a04f72978eb2ea12e9eec0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ca92dd9935b340d28b0ac285464de9bb.setIcon(icon_314223fbf0a04f72978eb2ea12e9eec0);
+        
+    
+        var popup_ecad9595dd5943cfbcfd3b10c34e212c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bca4115356ce424eb674f343ed2877d0 = $(`<div id="html_bca4115356ce424eb674f343ed2877d0" style="width: 100.0%; height: 100.0%;">Teens for Food Justice Fresh Food Box & Farmstand at Dewitt Clinton Educational Campus</div>`)[0];
+            popup_ecad9595dd5943cfbcfd3b10c34e212c.setContent(html_bca4115356ce424eb674f343ed2877d0);
+        
+
+        marker_ca92dd9935b340d28b0ac285464de9bb.bindPopup(popup_ecad9595dd5943cfbcfd3b10c34e212c)
+        ;
+
+        
+    
+    
+            var marker_155394d12a434cc789fef86ef1a0113c = L.marker(
+                [40.88222, -73.880458],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_956b2f80ecc84a05afce5d69478406c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_155394d12a434cc789fef86ef1a0113c.setIcon(icon_956b2f80ecc84a05afce5d69478406c2);
+        
+    
+        var popup_8d2de76c26cb47dba58abfaad5380a8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d17b0178baea4085879b602d4dc79571 = $(`<div id="html_d17b0178baea4085879b602d4dc79571" style="width: 100.0%; height: 100.0%;">Norwood Farmstand</div>`)[0];
+            popup_8d2de76c26cb47dba58abfaad5380a8a.setContent(html_d17b0178baea4085879b602d4dc79571);
+        
+
+        marker_155394d12a434cc789fef86ef1a0113c.bindPopup(popup_8d2de76c26cb47dba58abfaad5380a8a)
+        ;
+
+        
+    
+    
+            var marker_60e5d86a9cca417dbca382ed219b2b46 = L.marker(
+                [40.86153, -73.891063],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_63b0150090364881aa94d80c62df910c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_60e5d86a9cca417dbca382ed219b2b46.setIcon(icon_63b0150090364881aa94d80c62df910c);
+        
+    
+        var popup_9f81ec56ad1e45faac023553bcedce8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c027be0462264c7185a41a9d227e592e = $(`<div id="html_c027be0462264c7185a41a9d227e592e" style="width: 100.0%; height: 100.0%;">Fordham Plaza Greenmarket</div>`)[0];
+            popup_9f81ec56ad1e45faac023553bcedce8d.setContent(html_c027be0462264c7185a41a9d227e592e);
+        
+
+        marker_60e5d86a9cca417dbca382ed219b2b46.bindPopup(popup_9f81ec56ad1e45faac023553bcedce8d)
+        ;
+
+        
+    
+    
+            var marker_18bce74ff2964b30a2f3505c4ee5b54c = L.marker(
+                [40.864216, -73.895795],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_1067e45ac1af4723999c8bc0a5e364ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_18bce74ff2964b30a2f3505c4ee5b54c.setIcon(icon_1067e45ac1af4723999c8bc0a5e364ac);
+        
+    
+        var popup_cb8f4f2cfe7a43c5af538fc8728e7fbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63b3b1cf222d43f59a7341aae17bbc5e = $(`<div id="html_63b3b1cf222d43f59a7341aae17bbc5e" style="width: 100.0%; height: 100.0%;">Poe Park Greenmarket</div>`)[0];
+            popup_cb8f4f2cfe7a43c5af538fc8728e7fbd.setContent(html_63b3b1cf222d43f59a7341aae17bbc5e);
+        
+
+        marker_18bce74ff2964b30a2f3505c4ee5b54c.bindPopup(popup_cb8f4f2cfe7a43c5af538fc8728e7fbd)
+        ;
+
+        
+    
+    
+            var marker_e42afb43382d4e6b80ca3dff8c0cef2a = L.marker(
+                [40.879749, -73.884661],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_a94ee18a913b4cb5bcb3bdf9310194ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e42afb43382d4e6b80ca3dff8c0cef2a.setIcon(icon_a94ee18a913b4cb5bcb3bdf9310194ad);
+        
+    
+        var popup_7a9a056a38604c639f7d5b9419cbca31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5785dc308a84702baa53e42d1c92e6b = $(`<div id="html_e5785dc308a84702baa53e42d1c92e6b" style="width: 100.0%; height: 100.0%;">Harvest Home North Central Bronx Farmers' Market</div>`)[0];
+            popup_7a9a056a38604c639f7d5b9419cbca31.setContent(html_e5785dc308a84702baa53e42d1c92e6b);
+        
+
+        marker_e42afb43382d4e6b80ca3dff8c0cef2a.bindPopup(popup_7a9a056a38604c639f7d5b9419cbca31)
+        ;
+
+        
+    
+    
+            var marker_2ff46d6e8a4349e2913364e75107ce99 = L.marker(
+                [40.726054, -73.983534],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_e2e169366bf24b2391ae90d5cc0de09d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2ff46d6e8a4349e2913364e75107ce99.setIcon(icon_e2e169366bf24b2391ae90d5cc0de09d);
+        
+    
+        var popup_2a569abae2584ea79fe8709b295e8452 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efaa1adfd2a24894b26906180846a7dd = $(`<div id="html_efaa1adfd2a24894b26906180846a7dd" style="width: 100.0%; height: 100.0%;">Tompkins Square Greenmarket</div>`)[0];
+            popup_2a569abae2584ea79fe8709b295e8452.setContent(html_efaa1adfd2a24894b26906180846a7dd);
+        
+
+        marker_2ff46d6e8a4349e2913364e75107ce99.bindPopup(popup_2a569abae2584ea79fe8709b295e8452)
+        ;
+
+        
+    
+    
+            var marker_cdee8655cd514be4b6939818f3d6af29 = L.marker(
+                [40.719322, -73.987817],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_fc1f8a7b81ec4cd094ec6cf91f6fa0f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cdee8655cd514be4b6939818f3d6af29.setIcon(icon_fc1f8a7b81ec4cd094ec6cf91f6fa0f3);
+        
+    
+        var popup_d81ce007fe8d4c0aa5fecb26d6a2bad6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e28a502fa9a24a30b3e5625a114a2992 = $(`<div id="html_e28a502fa9a24a30b3e5625a114a2992" style="width: 100.0%; height: 100.0%;">Essex Crossing Farm Stand & CSA pickup</div>`)[0];
+            popup_d81ce007fe8d4c0aa5fecb26d6a2bad6.setContent(html_e28a502fa9a24a30b3e5625a114a2992);
+        
+
+        marker_cdee8655cd514be4b6939818f3d6af29.bindPopup(popup_d81ce007fe8d4c0aa5fecb26d6a2bad6)
+        ;
+
+        
+    
+    
+            var marker_191ae3c4787f435c8abc224fea5ca1c0 = L.marker(
+                [40.714932, -73.983338],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_6d1cc49f5cb34543b9fb57f2748cac21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_191ae3c4787f435c8abc224fea5ca1c0.setIcon(icon_6d1cc49f5cb34543b9fb57f2748cac21);
+        
+    
+        var popup_f07784547a644d1d8798d3aea83b88f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d89e2d7212624df19f1b29855b9e62d3 = $(`<div id="html_d89e2d7212624df19f1b29855b9e62d3" style="width: 100.0%; height: 100.0%;">Lower East Side Farmstand</div>`)[0];
+            popup_f07784547a644d1d8798d3aea83b88f1.setContent(html_d89e2d7212624df19f1b29855b9e62d3);
+        
+
+        marker_191ae3c4787f435c8abc224fea5ca1c0.bindPopup(popup_f07784547a644d1d8798d3aea83b88f1)
+        ;
+
+        
+    
+    
+            var marker_44664aa8ec744663addeff00df95e303 = L.marker(
+                [40.712905, -73.986928],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_83bf5b2d374e424492efe9163411cfbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_44664aa8ec744663addeff00df95e303.setIcon(icon_83bf5b2d374e424492efe9163411cfbd);
+        
+    
+        var popup_2f1f47b31811472cb34755155278c156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55624d2ea5cc4833857ebb4ea1b0856b = $(`<div id="html_55624d2ea5cc4833857ebb4ea1b0856b" style="width: 100.0%; height: 100.0%;">Gouverneur Health Farmstand</div>`)[0];
+            popup_2f1f47b31811472cb34755155278c156.setContent(html_55624d2ea5cc4833857ebb4ea1b0856b);
+        
+
+        marker_44664aa8ec744663addeff00df95e303.bindPopup(popup_2f1f47b31811472cb34755155278c156)
+        ;
+
+        
+    
+    
+            var marker_51bf947337d4441abd6abb084de31800 = L.marker(
+                [40.753435, -73.887822],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_a5f8359626274fa693862df3afbec97f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_51bf947337d4441abd6abb084de31800.setIcon(icon_a5f8359626274fa693862df3afbec97f);
+        
+    
+        var popup_b0d9204ea074416d9f762dbccbe0faec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00180e3dfdac48d7b4bc7709f8a29f96 = $(`<div id="html_00180e3dfdac48d7b4bc7709f8a29f96" style="width: 100.0%; height: 100.0%;">Jackson Heights Greenmarket</div>`)[0];
+            popup_b0d9204ea074416d9f762dbccbe0faec.setContent(html_00180e3dfdac48d7b4bc7709f8a29f96);
+        
+
+        marker_51bf947337d4441abd6abb084de31800.bindPopup(popup_b0d9204ea074416d9f762dbccbe0faec)
+        ;
+
+        
+    
+    
+            var marker_2f70c7e076d7446f868081b81d724a7e = L.marker(
+                [40.663812, -73.962866],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_5026f46341154d3b883437f088f1cbb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2f70c7e076d7446f868081b81d724a7e.setIcon(icon_5026f46341154d3b883437f088f1cbb9);
+        
+    
+        var popup_937906d9528743f19a9e3a16bb0403cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_119f9e644fa3452da4bfa98a59c9b3d3 = $(`<div id="html_119f9e644fa3452da4bfa98a59c9b3d3" style="width: 100.0%; height: 100.0%;">Grand Army Plaza Greenmarket</div>`)[0];
+            popup_937906d9528743f19a9e3a16bb0403cb.setContent(html_119f9e644fa3452da4bfa98a59c9b3d3);
+        
+
+        marker_2f70c7e076d7446f868081b81d724a7e.bindPopup(popup_937906d9528743f19a9e3a16bb0403cb)
+        ;
+
+        
+    
+    
+            var marker_01274dc6719d4d75b4d4f4e68072419d = L.marker(
+                [40.661154, -73.980172],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_5e81a96803e2473ba2f1644a6ef4ffaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_01274dc6719d4d75b4d4f4e68072419d.setIcon(icon_5e81a96803e2473ba2f1644a6ef4ffaf);
+        
+    
+        var popup_82dd355792a24b2a97885b08888fa03f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_564b5af8d5cb492d9570034580dd9a75 = $(`<div id="html_564b5af8d5cb492d9570034580dd9a75" style="width: 100.0%; height: 100.0%;">Bartel-Pritchard Square Greenmarket</div>`)[0];
+            popup_82dd355792a24b2a97885b08888fa03f.setContent(html_564b5af8d5cb492d9570034580dd9a75);
+        
+
+        marker_01274dc6719d4d75b4d4f4e68072419d.bindPopup(popup_82dd355792a24b2a97885b08888fa03f)
+        ;
+
+        
+    
+    
+            var marker_f7b8f5781c134ac8805d37768536cf84 = L.marker(
+                [40.82394, -73.948552],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_dd898bb156b9450484817b6bb8544231 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f7b8f5781c134ac8805d37768536cf84.setIcon(icon_dd898bb156b9450484817b6bb8544231);
+        
+    
+        var popup_c13f3d9a2e6e46f28eb0752edda39e1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31b43b618f6849f3a2fb832d96f27592 = $(`<div id="html_31b43b618f6849f3a2fb832d96f27592" style="width: 100.0%; height: 100.0%;">Hamilton Heights Green Youthmarket</div>`)[0];
+            popup_c13f3d9a2e6e46f28eb0752edda39e1d.setContent(html_31b43b618f6849f3a2fb832d96f27592);
+        
+
+        marker_f7b8f5781c134ac8805d37768536cf84.bindPopup(popup_c13f3d9a2e6e46f28eb0752edda39e1d)
+        ;
+
+        
+    
+    
+            var marker_95f87e192feb4930aacbf9b68c44b238 = L.marker(
+                [40.806707, -73.964849],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_6a33ca0005e44bd88466554702700f26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_95f87e192feb4930aacbf9b68c44b238.setIcon(icon_6a33ca0005e44bd88466554702700f26);
+        
+    
+        var popup_be2352c8fef44291915d77c48b4acd48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_998cd7d93ed347369da10d33b1ad1f7f = $(`<div id="html_998cd7d93ed347369da10d33b1ad1f7f" style="width: 100.0%; height: 100.0%;">Columbia University Greenmarket</div>`)[0];
+            popup_be2352c8fef44291915d77c48b4acd48.setContent(html_998cd7d93ed347369da10d33b1ad1f7f);
+        
+
+        marker_95f87e192feb4930aacbf9b68c44b238.bindPopup(popup_be2352c8fef44291915d77c48b4acd48)
+        ;
+
+        
+    
+    
+            var marker_4568c0184d7948bd99cb6560962d3a10 = L.marker(
+                [40.823647, -73.943844],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_1797954cae5a48fdad72ca93f5264771 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4568c0184d7948bd99cb6560962d3a10.setIcon(icon_1797954cae5a48fdad72ca93f5264771);
+        
+    
+        var popup_d47ed371c92143ca8943af3e6a602f04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_babb807db9b345be878d507398d15d04 = $(`<div id="html_babb807db9b345be878d507398d15d04" style="width: 100.0%; height: 100.0%;">Grass Roots Farmers' Market</div>`)[0];
+            popup_d47ed371c92143ca8943af3e6a602f04.setContent(html_babb807db9b345be878d507398d15d04);
+        
+
+        marker_4568c0184d7948bd99cb6560962d3a10.bindPopup(popup_d47ed371c92143ca8943af3e6a602f04)
+        ;
+
+        
+    
+    
+            var marker_114f70102efa4b76bf2ec921e8ddde8d = L.marker(
+                [40.845948, -73.937811],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_2e2e1d79acbe46119e6b9ddf055c156b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_114f70102efa4b76bf2ec921e8ddde8d.setIcon(icon_2e2e1d79acbe46119e6b9ddf055c156b);
+        
+    
+        var popup_394e1344fec5470d802bc4c49dadfdd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49d3e15e5c23438aa8b380ac8fd37a39 = $(`<div id="html_49d3e15e5c23438aa8b380ac8fd37a39" style="width: 100.0%; height: 100.0%;">175th Street Greenmarket</div>`)[0];
+            popup_394e1344fec5470d802bc4c49dadfdd0.setContent(html_49d3e15e5c23438aa8b380ac8fd37a39);
+        
+
+        marker_114f70102efa4b76bf2ec921e8ddde8d.bindPopup(popup_394e1344fec5470d802bc4c49dadfdd0)
+        ;
+
+        
+    
+    
+            var marker_c7a642ce8f674d13a3b70acbbfca7bb7 = L.marker(
+                [40.839305, -73.936159],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_a7df111771394b3bb9c0a4d283c9fa42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c7a642ce8f674d13a3b70acbbfca7bb7.setIcon(icon_a7df111771394b3bb9c0a4d283c9fa42);
+        
+    
+        var popup_c7a3463748e643f49655c68f608fec92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5e83a2b46b84e458d16712aed44204e = $(`<div id="html_f5e83a2b46b84e458d16712aed44204e" style="width: 100.0%; height: 100.0%;">Go!Healthy Farm Stand at Mirabal Sisters Campus</div>`)[0];
+            popup_c7a3463748e643f49655c68f608fec92.setContent(html_f5e83a2b46b84e458d16712aed44204e);
+        
+
+        marker_c7a642ce8f674d13a3b70acbbfca7bb7.bindPopup(popup_c7a3463748e643f49655c68f608fec92)
+        ;
+
+        
+    
+    
+            var marker_93a5a697476f4ec187f31b0e158b9bce = L.marker(
+                [40.869001, -73.920896],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_63be62dcc4e54deaa397ae6344318851 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_93a5a697476f4ec187f31b0e158b9bce.setIcon(icon_63be62dcc4e54deaa397ae6344318851);
+        
+    
+        var popup_fa1bd5fdf4674c0db26c2646116f552d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3946291fdcf44b70a2c8e869d98afa32 = $(`<div id="html_3946291fdcf44b70a2c8e869d98afa32" style="width: 100.0%; height: 100.0%;">Inwood Park Greenmarket</div>`)[0];
+            popup_fa1bd5fdf4674c0db26c2646116f552d.setContent(html_3946291fdcf44b70a2c8e869d98afa32);
+        
+
+        marker_93a5a697476f4ec187f31b0e158b9bce.bindPopup(popup_fa1bd5fdf4674c0db26c2646116f552d)
+        ;
+
+        
+    
+    
+            var marker_f0df550679754032923a726211060266 = L.marker(
+                [40.85899, -73.922894],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_84f454c83d3c4993b0406ac114a2658d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f0df550679754032923a726211060266.setIcon(icon_84f454c83d3c4993b0406ac114a2658d);
+        
+    
+        var popup_963f926831324a04a4cb1af94467dbb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a9b8559053e4150913c62ecf90ab8d4 = $(`<div id="html_7a9b8559053e4150913c62ecf90ab8d4" style="width: 100.0%; height: 100.0%;">PS 5 Go!Healthy Farm Stand</div>`)[0];
+            popup_963f926831324a04a4cb1af94467dbb1.setContent(html_7a9b8559053e4150913c62ecf90ab8d4);
+        
+
+        marker_f0df550679754032923a726211060266.bindPopup(popup_963f926831324a04a4cb1af94467dbb1)
+        ;
+
+        
+    
+    
+            var marker_5ad827c3f779472193eb9de0ac2925bf = L.marker(
+                [40.842154, -73.942278],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_e95c85628b374efeb52ad43889c273c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5ad827c3f779472193eb9de0ac2925bf.setIcon(icon_e95c85628b374efeb52ad43889c273c5);
+        
+    
+        var popup_156500bd17274663baedfe1a6933a1d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2752c1489a149759c4efa7e2deede51 = $(`<div id="html_b2752c1489a149759c4efa7e2deede51" style="width: 100.0%; height: 100.0%;">Fort Washington Greenmarket</div>`)[0];
+            popup_156500bd17274663baedfe1a6933a1d8.setContent(html_b2752c1489a149759c4efa7e2deede51);
+        
+
+        marker_5ad827c3f779472193eb9de0ac2925bf.bindPopup(popup_156500bd17274663baedfe1a6933a1d8)
+        ;
+
+        
+    
+    
+            var marker_f455b468e9094824b35e4933e491115a = L.marker(
+                [40.647132, -74.004623],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_99207aff430a473288a99bdbf773ad70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f455b468e9094824b35e4933e491115a.setIcon(icon_99207aff430a473288a99bdbf773ad70);
+        
+    
+        var popup_8ae37f370a0149f39bb3ed769aa5c689 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1a0d1e6608a4c97ab97e2098aff2cfc = $(`<div id="html_b1a0d1e6608a4c97ab97e2098aff2cfc" style="width: 100.0%; height: 100.0%;">6th Ave Sunset Park Greenmarket</div>`)[0];
+            popup_8ae37f370a0149f39bb3ed769aa5c689.setContent(html_b1a0d1e6608a4c97ab97e2098aff2cfc);
+        
+
+        marker_f455b468e9094824b35e4933e491115a.bindPopup(popup_8ae37f370a0149f39bb3ed769aa5c689)
+        ;
+
+        
+    
+    
+            var marker_1a5f8d749f93430db593ebdcf779ce12 = L.marker(
+                [40.641435, -74.017815],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_0cd5b0e5a98540d09c2d80e534ecbb04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1a5f8d749f93430db593ebdcf779ce12.setIcon(icon_0cd5b0e5a98540d09c2d80e534ecbb04);
+        
+    
+        var popup_1e71672416054cf6a43c002f9894debf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf24e6f2e6e54a78a956d82058656344 = $(`<div id="html_bf24e6f2e6e54a78a956d82058656344" style="width: 100.0%; height: 100.0%;">4th Ave Sunset Park Greenmarket</div>`)[0];
+            popup_1e71672416054cf6a43c002f9894debf.setContent(html_bf24e6f2e6e54a78a956d82058656344);
+        
+
+        marker_1a5f8d749f93430db593ebdcf779ce12.bindPopup(popup_1e71672416054cf6a43c002f9894debf)
+        ;
+
+        
+    
+    
+            var marker_a1a718997bf54d139e0cd3bd6c30ee7a = L.marker(
+                [40.759065, -73.97845],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_4a65338e9d62497fbd820acf12d82d37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a1a718997bf54d139e0cd3bd6c30ee7a.setIcon(icon_4a65338e9d62497fbd820acf12d82d37);
+        
+    
+        var popup_2e36b4393e2b4cd0ac3ee4fe24044ac9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0133c43535b84ec895b78f9a3b9eb509 = $(`<div id="html_0133c43535b84ec895b78f9a3b9eb509" style="width: 100.0%; height: 100.0%;">Rockefeller Center Greenmarket</div>`)[0];
+            popup_2e36b4393e2b4cd0ac3ee4fe24044ac9.setContent(html_0133c43535b84ec895b78f9a3b9eb509);
+        
+
+        marker_a1a718997bf54d139e0cd3bd6c30ee7a.bindPopup(popup_2e36b4393e2b4cd0ac3ee4fe24044ac9)
+        ;
+
+        
+    
+    
+            var marker_64b8c10361164112a3b547e49a3af539 = L.marker(
+                [40.737133, -73.990329],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_b0db3ae1a5ee47b6b36f0f875f23dad3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_64b8c10361164112a3b547e49a3af539.setIcon(icon_b0db3ae1a5ee47b6b36f0f875f23dad3);
+        
+    
+        var popup_7a194dc1739a43a2ad7e8af953352fea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5bd2fd968f54e6298752238aeff25de = $(`<div id="html_a5bd2fd968f54e6298752238aeff25de" style="width: 100.0%; height: 100.0%;">Union Square Greenmarket</div>`)[0];
+            popup_7a194dc1739a43a2ad7e8af953352fea.setContent(html_a5bd2fd968f54e6298752238aeff25de);
+        
+
+        marker_64b8c10361164112a3b547e49a3af539.bindPopup(popup_7a194dc1739a43a2ad7e8af953352fea)
+        ;
+
+        
+    
+    
+            var marker_0dbe85f3053143d8b460e8fad6557c97 = L.marker(
+                [40.756357, -73.825773],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_40a606cb430b43c2b9ddc572f6674337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0dbe85f3053143d8b460e8fad6557c97.setIcon(icon_40a606cb430b43c2b9ddc572f6674337);
+        
+    
+        var popup_504fa0e4fbb44316b397d85f4a17ee67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeca053bb70f45c5b387e3d30903fb5c = $(`<div id="html_aeca053bb70f45c5b387e3d30903fb5c" style="width: 100.0%; height: 100.0%;">Flushing Greenmarket</div>`)[0];
+            popup_504fa0e4fbb44316b397d85f4a17ee67.setContent(html_aeca053bb70f45c5b387e3d30903fb5c);
+        
+
+        marker_0dbe85f3053143d8b460e8fad6557c97.bindPopup(popup_504fa0e4fbb44316b397d85f4a17ee67)
+        ;
+
+        
+    
+    
+            var marker_82ffdb4bf8f74f6b99f42445a66ff0d3 = L.marker(
+                [40.75186, -73.826362],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_ef3797e850a14c2cbba62a4fd95ca6cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_82ffdb4bf8f74f6b99f42445a66ff0d3.setIcon(icon_ef3797e850a14c2cbba62a4fd95ca6cd);
+        
+    
+        var popup_2305db5c4c0347c598b9c82ce9ac90a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee199989ffa149deb70d0379176b9d2f = $(`<div id="html_ee199989ffa149deb70d0379176b9d2f" style="width: 100.0%; height: 100.0%;">Queens Botanical Garden's Down to Earth Farmers' Market</div>`)[0];
+            popup_2305db5c4c0347c598b9c82ce9ac90a2.setContent(html_ee199989ffa149deb70d0379176b9d2f);
+        
+
+        marker_82ffdb4bf8f74f6b99f42445a66ff0d3.bindPopup(popup_2305db5c4c0347c598b9c82ce9ac90a2)
+        ;
+
+        
+    
+    
+            var marker_ef7dce7a6d7248b98e26921373329cbf = L.marker(
+                [40.702811, -73.92539],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_20dc14aeba3d40fa9e26eb4179756e4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ef7dce7a6d7248b98e26921373329cbf.setIcon(icon_20dc14aeba3d40fa9e26eb4179756e4c);
+        
+    
+        var popup_8f363353198642489330154a3f12cd83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e982fa22a074b18a90a639fa3abca11 = $(`<div id="html_7e982fa22a074b18a90a639fa3abca11" style="width: 100.0%; height: 100.0%;">RB Bushwick Farmers' Market at Maria Hernandez Park</div>`)[0];
+            popup_8f363353198642489330154a3f12cd83.setContent(html_7e982fa22a074b18a90a639fa3abca11);
+        
+
+        marker_ef7dce7a6d7248b98e26921373329cbf.bindPopup(popup_8f363353198642489330154a3f12cd83)
+        ;
+
+        
+    
+    
+            var marker_beb57e7f69dc4694958121fb67e93902 = L.marker(
+                [40.689879, -73.905298],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_143b64c585b84c5584113e755e0d3f89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_beb57e7f69dc4694958121fb67e93902.setIcon(icon_143b64c585b84c5584113e755e0d3f89);
+        
+    
+        var popup_6f8137a7669642789b465cb91746bb22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebbdd017bac14076a83a802b0246561f = $(`<div id="html_ebbdd017bac14076a83a802b0246561f" style="width: 100.0%; height: 100.0%;">RB Pop Up Farm Stand</div>`)[0];
+            popup_6f8137a7669642789b465cb91746bb22.setContent(html_ebbdd017bac14076a83a802b0246561f);
+        
+
+        marker_beb57e7f69dc4694958121fb67e93902.bindPopup(popup_6f8137a7669642789b465cb91746bb22)
+        ;
+
+        
+    
+    
+            var marker_2e5006552b6542bf9a5fb55fd7eb5bf7 = L.marker(
+                [40.697175, -73.916878],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_7e366ae02c3649b399979662d7e194ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2e5006552b6542bf9a5fb55fd7eb5bf7.setIcon(icon_7e366ae02c3649b399979662d7e194ce);
+        
+    
+        var popup_60f04e728c684c378b87147fdf2dc9f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a69cb606369a4f9cb09849efebe71fee = $(`<div id="html_a69cb606369a4f9cb09849efebe71fee" style="width: 100.0%; height: 100.0%;">RB HopeBall Field Farmers Market</div>`)[0];
+            popup_60f04e728c684c378b87147fdf2dc9f9.setContent(html_a69cb606369a4f9cb09849efebe71fee);
+        
+
+        marker_2e5006552b6542bf9a5fb55fd7eb5bf7.bindPopup(popup_60f04e728c684c378b87147fdf2dc9f9)
+        ;
+
+        
+    
+    
+            var marker_37e5f460a0de499f9fe0b9e3882c05bf = L.marker(
+                [40.768504, -73.921724],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_7a2d9bdeb0614725bb98e88dd06d8e71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_37e5f460a0de499f9fe0b9e3882c05bf.setIcon(icon_7a2d9bdeb0614725bb98e88dd06d8e71);
+        
+    
+        var popup_fc70956f941143229f6c4c628c2376b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2580dc1414e2449fb536e51d4593ceae = $(`<div id="html_2580dc1414e2449fb536e51d4593ceae" style="width: 100.0%; height: 100.0%;">Socrates Sculpture Garden</div>`)[0];
+            popup_fc70956f941143229f6c4c628c2376b7.setContent(html_2580dc1414e2449fb536e51d4593ceae);
+        
+
+        marker_37e5f460a0de499f9fe0b9e3882c05bf.bindPopup(popup_fc70956f941143229f6c4c628c2376b7)
+        ;
+
+        
+    
+    
+            var marker_7b775f18d5484026b444c22d44bd8ddc = L.marker(
+                [40.772854, -73.906061],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_bc15dce8e6224e43bb95ce11013c3ff1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7b775f18d5484026b444c22d44bd8ddc.setIcon(icon_bc15dce8e6224e43bb95ce11013c3ff1);
+        
+    
+        var popup_fb062432a64e465fa51615a0d2788b77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06f709c4a6894dd19ca40925a76f1491 = $(`<div id="html_06f709c4a6894dd19ca40925a76f1491" style="width: 100.0%; height: 100.0%;">Ditmars Park Farmstand</div>`)[0];
+            popup_fb062432a64e465fa51615a0d2788b77.setContent(html_06f709c4a6894dd19ca40925a76f1491);
+        
+
+        marker_7b775f18d5484026b444c22d44bd8ddc.bindPopup(popup_fb062432a64e465fa51615a0d2788b77)
+        ;
+
+        
+    
+    
+            var marker_919fabd966ea4d37a63b58ca69ec48a4 = L.marker(
+                [40.752096, -73.925887],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_b1e9ae96ef5d4b70aec07f4ea116842e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_919fabd966ea4d37a63b58ca69ec48a4.setIcon(icon_b1e9ae96ef5d4b70aec07f4ea116842e);
+        
+    
+        var popup_23a6f0e553c247e49c662e3803bb624d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c7b6378de0840bc85e3c0ed9a244531 = $(`<div id="html_6c7b6378de0840bc85e3c0ed9a244531" style="width: 100.0%; height: 100.0%;">Brooklyn Grange Farm Stand at Long Island City</div>`)[0];
+            popup_23a6f0e553c247e49c662e3803bb624d.setContent(html_6c7b6378de0840bc85e3c0ed9a244531);
+        
+
+        marker_919fabd966ea4d37a63b58ca69ec48a4.bindPopup(popup_23a6f0e553c247e49c662e3803bb624d)
+        ;
+
+        
+    
+    
+            var marker_96a5ad5c744e4c98a91c93ef3671f28c = L.marker(
+                [40.746999, -73.921724],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_412be054569b4c6191f0a90cba2abc2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_96a5ad5c744e4c98a91c93ef3671f28c.setIcon(icon_412be054569b4c6191f0a90cba2abc2d);
+        
+    
+        var popup_b0ae651c99644fd49ecfa4912997c05d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48668737426c4a8ea40ec571ee40710b = $(`<div id="html_48668737426c4a8ea40ec571ee40710b" style="width: 100.0%; height: 100.0%;">Sunnyside Greenmarket</div>`)[0];
+            popup_b0ae651c99644fd49ecfa4912997c05d.setContent(html_48668737426c4a8ea40ec571ee40710b);
+        
+
+        marker_96a5ad5c744e4c98a91c93ef3671f28c.bindPopup(popup_b0ae651c99644fd49ecfa4912997c05d)
+        ;
+
+        
+    
+    
+            var marker_c5a71d9a4cb44fe6a785db434f922b5c = L.marker(
+                [40.731082, -73.773997],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_06e9538469624e30aa1de590341e60da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c5a71d9a4cb44fe6a785db434f922b5c.setIcon(icon_06e9538469624e30aa1de590341e60da);
+        
+    
+        var popup_44452c5594bf42a196c2676aaa5c33b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28241a9ce9b14c14a12a9e6e2c40f3c5 = $(`<div id="html_28241a9ce9b14c14a12a9e6e2c40f3c5" style="width: 100.0%; height: 100.0%;">Cunningham Park's Down to Earth Farmers' Market</div>`)[0];
+            popup_44452c5594bf42a196c2676aaa5c33b5.setContent(html_28241a9ce9b14c14a12a9e6e2c40f3c5);
+        
+
+        marker_c5a71d9a4cb44fe6a785db434f922b5c.bindPopup(popup_44452c5594bf42a196c2676aaa5c33b5)
+        ;
+
+        
+    
+    
+            var marker_031ede07536445f2880af07106cf4988 = L.marker(
+                [40.752999, -73.969887],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_a89fe90903a141b3a7ae5df8de7d2dad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_031ede07536445f2880af07106cf4988.setIcon(icon_a89fe90903a141b3a7ae5df8de7d2dad);
+        
+    
+        var popup_28d882d771df43f0b2163e0fc841af75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bdb0482c5cf4632a92b773b88f09eb7 = $(`<div id="html_3bdb0482c5cf4632a92b773b88f09eb7" style="width: 100.0%; height: 100.0%;">Dag Hammarskjold Plaza Greenmarket</div>`)[0];
+            popup_28d882d771df43f0b2163e0fc841af75.setContent(html_3bdb0482c5cf4632a92b773b88f09eb7);
+        
+
+        marker_031ede07536445f2880af07106cf4988.bindPopup(popup_28d882d771df43f0b2163e0fc841af75)
+        ;
+
+        
+    
+    
+            var marker_23a01a59d96940b1a41f6b1049a8c651 = L.marker(
+                [40.730443, -73.980339],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_b61ef64b56d144d6b2bcf40528bbfc58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_23a01a59d96940b1a41f6b1049a8c651.setIcon(icon_b61ef64b56d144d6b2bcf40528bbfc58);
+        
+    
+        var popup_f9b92a7c3e104673a03ba557a06690d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0f4e86ab4524e26a8212af168ec5f5f = $(`<div id="html_d0f4e86ab4524e26a8212af168ec5f5f" style="width: 100.0%; height: 100.0%;">Stuyvesant Town Greenmarket</div>`)[0];
+            popup_f9b92a7c3e104673a03ba557a06690d6.setContent(html_d0f4e86ab4524e26a8212af168ec5f5f);
+        
+
+        marker_23a01a59d96940b1a41f6b1049a8c651.bindPopup(popup_f9b92a7c3e104673a03ba557a06690d6)
+        ;
+
+        
+    
+    
+            var marker_8cba4d07a83a4a3293bd43bb00db7923 = L.marker(
+                [40.789169, -73.952743],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_d4feea6e0111425c86ce15de4acf59c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8cba4d07a83a4a3293bd43bb00db7923.setIcon(icon_d4feea6e0111425c86ce15de4acf59c9);
+        
+    
+        var popup_fab8a83be1094434833fba4ae5deccdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfa133aece3a42f89ee660a4f872e056 = $(`<div id="html_cfa133aece3a42f89ee660a4f872e056" style="width: 100.0%; height: 100.0%;">Mount Sinai Hospital Greenmarket</div>`)[0];
+            popup_fab8a83be1094434833fba4ae5deccdf.setContent(html_cfa133aece3a42f89ee660a4f872e056);
+        
+
+        marker_8cba4d07a83a4a3293bd43bb00db7923.bindPopup(popup_fab8a83be1094434833fba4ae5deccdf)
+        ;
+
+        
+    
+    
+            var marker_d6956ffe17b34a5584b504083e7081fc = L.marker(
+                [40.78712, -73.947923],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_f578cf64d8bf47e28c99be098174335a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d6956ffe17b34a5584b504083e7081fc.setIcon(icon_f578cf64d8bf47e28c99be098174335a);
+        
+    
+        var popup_ced28d4f44cb41e9b94dcf976cf9bb77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13e7e3c8e21044a38a73c01f81d30533 = $(`<div id="html_13e7e3c8e21044a38a73c01f81d30533" style="width: 100.0%; height: 100.0%;">Harvest Home Metropolitan Farmers' Market</div>`)[0];
+            popup_ced28d4f44cb41e9b94dcf976cf9bb77.setContent(html_13e7e3c8e21044a38a73c01f81d30533);
+        
+
+        marker_d6956ffe17b34a5584b504083e7081fc.bindPopup(popup_ced28d4f44cb41e9b94dcf976cf9bb77)
+        ;
+
+        
+    
+    
+            var marker_b622a066a06545ed9f6161366815a582 = L.marker(
+                [40.797261, -73.940519],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_3f996d1fefce4b8ab9d808e1a172f98d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b622a066a06545ed9f6161366815a582.setIcon(icon_3f996d1fefce4b8ab9d808e1a172f98d);
+        
+    
+        var popup_6062aaeabcf94baa8d5cf1750876b747 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f897d41c88fe4ad0be4a814d109a343c = $(`<div id="html_f897d41c88fe4ad0be4a814d109a343c" style="width: 100.0%; height: 100.0%;">PS 57 Farmstand</div>`)[0];
+            popup_6062aaeabcf94baa8d5cf1750876b747.setContent(html_f897d41c88fe4ad0be4a814d109a343c);
+        
+
+        marker_b622a066a06545ed9f6161366815a582.bindPopup(popup_6062aaeabcf94baa8d5cf1750876b747)
+        ;
+
+        
+    
+    
+            var marker_e981e53b000f4a61b1a90df3935e3e25 = L.marker(
+                [40.790253, -73.945635],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_678ea8893ed54b1d87877b00272a7cbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e981e53b000f4a61b1a90df3935e3e25.setIcon(icon_678ea8893ed54b1d87877b00272a7cbb);
+        
+    
+        var popup_02f6a61e17df4e7d8d104ab9737e9d95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69912e409e1149deaff66a3fa6770024 = $(`<div id="html_69912e409e1149deaff66a3fa6770024" style="width: 100.0%; height: 100.0%;">Harvest Home East Harlem Farmers' Market</div>`)[0];
+            popup_02f6a61e17df4e7d8d104ab9737e9d95.setContent(html_69912e409e1149deaff66a3fa6770024);
+        
+
+        marker_e981e53b000f4a61b1a90df3935e3e25.bindPopup(popup_02f6a61e17df4e7d8d104ab9737e9d95)
+        ;
+
+        
+    
+    
+            var marker_8815331ce2974e1cb3d26fa6c1e4cade = L.marker(
+                [40.640825, -73.965301],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_f8cffba8b70c4da4b8b74b37faa811b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8815331ce2974e1cb3d26fa6c1e4cade.setIcon(icon_f8cffba8b70c4da4b8b74b37faa811b5);
+        
+    
+        var popup_6ce49481ed504c14846bc8915c628fd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb3773218d3241a7b7aabebf1c49e710 = $(`<div id="html_eb3773218d3241a7b7aabebf1c49e710" style="width: 100.0%; height: 100.0%;">Cortelyou Greenmarket</div>`)[0];
+            popup_6ce49481ed504c14846bc8915c628fd6.setContent(html_eb3773218d3241a7b7aabebf1c49e710);
+        
+
+        marker_8815331ce2974e1cb3d26fa6c1e4cade.bindPopup(popup_6ce49481ed504c14846bc8915c628fd6)
+        ;
+
+        
+    
+    
+            var marker_375b08cebda6446fafa5c6ab5d570a15 = L.marker(
+                [40.632886, -73.947698],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_8c42f72f11564334b0afe8d06aeeacdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_375b08cebda6446fafa5c6ab5d570a15.setIcon(icon_8c42f72f11564334b0afe8d06aeeacdd);
+        
+    
+        var popup_eeffb8da505b461ba6c9c95dd8758b9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e02826a77273486b99b0330df13ce0c7 = $(`<div id="html_e02826a77273486b99b0330df13ce0c7" style="width: 100.0%; height: 100.0%;">Flatbush Junction Farmstand</div>`)[0];
+            popup_eeffb8da505b461ba6c9c95dd8758b9b.setContent(html_e02826a77273486b99b0330df13ce0c7);
+        
+
+        marker_375b08cebda6446fafa5c6ab5d570a15.bindPopup(popup_eeffb8da505b461ba6c9c95dd8758b9b)
+        ;
+
+        
+    
+    
+            var marker_638000ab531a45819414c968a767f7bf = L.marker(
+                [40.656255, -73.936608],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_701a87b5c8f543cbb7935a881ad60b1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_638000ab531a45819414c968a767f7bf.setIcon(icon_701a87b5c8f543cbb7935a881ad60b1f);
+        
+    
+        var popup_d587e55d01bb420fa43ed624d98ce821 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8ab8bc9426d457eaf279b00a0bbac6e = $(`<div id="html_b8ab8bc9426d457eaf279b00a0bbac6e" style="width: 100.0%; height: 100.0%;">Urban Oasis Farmers' Market</div>`)[0];
+            popup_d587e55d01bb420fa43ed624d98ce821.setContent(html_b8ab8bc9426d457eaf279b00a0bbac6e);
+        
+
+        marker_638000ab531a45819414c968a767f7bf.bindPopup(popup_d587e55d01bb420fa43ed624d98ce821)
+        ;
+
+        
+    
+    
+            var marker_a3aa3800e3fd4ca1b3ae4e4013e45330 = L.marker(
+                [40.833992, -73.862148],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_0c3c04de417b4b538b0e6ff52330995f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a3aa3800e3fd4ca1b3ae4e4013e45330.setIcon(icon_0c3c04de417b4b538b0e6ff52330995f);
+        
+    
+        var popup_e2b0128821da4b1c9cc12fd5ac6a7f2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c4c134b871f40ac961213772acd1199 = $(`<div id="html_0c4c134b871f40ac961213772acd1199" style="width: 100.0%; height: 100.0%;">Parkchester Greenmarket</div>`)[0];
+            popup_e2b0128821da4b1c9cc12fd5ac6a7f2b.setContent(html_0c4c134b871f40ac961213772acd1199);
+        
+
+        marker_a3aa3800e3fd4ca1b3ae4e4013e45330.bindPopup(popup_e2b0128821da4b1c9cc12fd5ac6a7f2b)
+        ;
+
+        
+    
+    
+            var marker_91fd208186c74a2dbd72de98d9fda3b0 = L.marker(
+                [40.668918, -73.751335],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_6e4b4660ae604fe49ed205c87ffe335b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_91fd208186c74a2dbd72de98d9fda3b0.setIcon(icon_6e4b4660ae604fe49ed205c87ffe335b);
+        
+    
+        var popup_a359572d46444b289d6b30fbeb341916 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0baef26984104a4ab8add13b39495c00 = $(`<div id="html_0baef26984104a4ab8add13b39495c00" style="width: 100.0%; height: 100.0%;">The Laurelton Farmers Market</div>`)[0];
+            popup_a359572d46444b289d6b30fbeb341916.setContent(html_0baef26984104a4ab8add13b39495c00);
+        
+
+        marker_91fd208186c74a2dbd72de98d9fda3b0.bindPopup(popup_a359572d46444b289d6b30fbeb341916)
+        ;
+
+        
+    
+    
+            var marker_9491a67d6ae448f3abbd4133315d4205 = L.marker(
+                [40.748163, -73.719431],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_2ba2ee995e384c1aab1605b7c16f958e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9491a67d6ae448f3abbd4133315d4205.setIcon(icon_2ba2ee995e384c1aab1605b7c16f958e);
+        
+    
+        var popup_e056639b4bc64990b9d83b65b77de94d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aed099abb3a9498a8e2406dbd1facaa6 = $(`<div id="html_aed099abb3a9498a8e2406dbd1facaa6" style="width: 100.0%; height: 100.0%;">Queens County Farm Museum Farm Stand</div>`)[0];
+            popup_e056639b4bc64990b9d83b65b77de94d.setContent(html_aed099abb3a9498a8e2406dbd1facaa6);
+        
+
+        marker_9491a67d6ae448f3abbd4133315d4205.bindPopup(popup_e056639b4bc64990b9d83b65b77de94d)
+        ;
+
+        
+    
+    
+            var marker_6d62e764736346f99d3ce1ece45ee97f = L.marker(
+                [40.633696, -73.989916],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_9f9dcbbbc5e54b1f9a326b69b861fc2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6d62e764736346f99d3ce1ece45ee97f.setIcon(icon_9f9dcbbbc5e54b1f9a326b69b861fc2a);
+        
+    
+        var popup_98f802f37978441da95b5b94c12ad6e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a4c515f06e1463da4b67cf1a51dc57c = $(`<div id="html_3a4c515f06e1463da4b67cf1a51dc57c" style="width: 100.0%; height: 100.0%;">Borough Park Greenmarket</div>`)[0];
+            popup_98f802f37978441da95b5b94c12ad6e0.setContent(html_3a4c515f06e1463da4b67cf1a51dc57c);
+        
+
+        marker_6d62e764736346f99d3ce1ece45ee97f.bindPopup(popup_98f802f37978441da95b5b94c12ad6e0)
+        ;
+
+        
+    
+    
+            var marker_5b5483e656a448d591ad9ce992a1e393 = L.marker(
+                [40.64511, -73.979882],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_9d559ee69e1640f0aca2406263de71b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5b5483e656a448d591ad9ce992a1e393.setIcon(icon_9d559ee69e1640f0aca2406263de71b6);
+        
+    
+        var popup_43dd2981f2574ff0998073245ccb582b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8cd4d2d11cd42a69d301e84f62e6fc0 = $(`<div id="html_c8cd4d2d11cd42a69d301e84f62e6fc0" style="width: 100.0%; height: 100.0%;">Kensington Farmstand</div>`)[0];
+            popup_43dd2981f2574ff0998073245ccb582b.setContent(html_c8cd4d2d11cd42a69d301e84f62e6fc0);
+        
+
+        marker_5b5483e656a448d591ad9ce992a1e393.bindPopup(popup_43dd2981f2574ff0998073245ccb582b)
+        ;
+
+        
+    
+    
+            var marker_9a64128c8b074d2680310099fd141167 = L.marker(
+                [40.857427, -73.847079],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_ec4f25a1149c48349550955b490a2d14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9a64128c8b074d2680310099fd141167.setIcon(icon_ec4f25a1149c48349550955b490a2d14);
+        
+    
+        var popup_3d0ad3650eea44bfbdaf58c9f82dfc4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96c5a30141b74b5a8e0f727b4fe1907c = $(`<div id="html_96c5a30141b74b5a8e0f727b4fe1907c" style="width: 100.0%; height: 100.0%;">Harvest Home Jacobi Hospital Farmers' Market</div>`)[0];
+            popup_3d0ad3650eea44bfbdaf58c9f82dfc4f.setContent(html_96c5a30141b74b5a8e0f727b4fe1907c);
+        
+
+        marker_9a64128c8b074d2680310099fd141167.bindPopup(popup_3d0ad3650eea44bfbdaf58c9f82dfc4f)
+        ;
+
+        
+    
+    
+            var marker_d68fdd6b5f7543319d9d7053dc72a2ee = L.marker(
+                [40.688615, -73.785593],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_5b6f93983208413e82a20c13dc01c8f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d68fdd6b5f7543319d9d7053dc72a2ee.setIcon(icon_5b6f93983208413e82a20c13dc01c8f7);
+        
+    
+        var popup_11213b5f13e34a8cbbcdbe91ab20c7be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b15bd6e293ef4cbaa929a5027cba4d6d = $(`<div id="html_b15bd6e293ef4cbaa929a5027cba4d6d" style="width: 100.0%; height: 100.0%;">Guy R Brewer Boulevard Farmers Market at NYC Health + Hospitals/Queens</div>`)[0];
+            popup_11213b5f13e34a8cbbcdbe91ab20c7be.setContent(html_b15bd6e293ef4cbaa929a5027cba4d6d);
+        
+
+        marker_d68fdd6b5f7543319d9d7053dc72a2ee.bindPopup(popup_11213b5f13e34a8cbbcdbe91ab20c7be)
+        ;
+
+        
+    
+    
+            var marker_487f13b98bd94fda87f32a09a8804810 = L.marker(
+                [40.802699, -73.949186],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_3c292d31ceab45c7826670f975e95086 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_487f13b98bd94fda87f32a09a8804810.setIcon(icon_3c292d31ceab45c7826670f975e95086);
+        
+    
+        var popup_010806934e3246a5b5542990ed88595f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65206a3ecb0c44559f5c9c2a42fed6cc = $(`<div id="html_65206a3ecb0c44559f5c9c2a42fed6cc" style="width: 100.0%; height: 100.0%;">Harvest Home Lenox Ave Farm Stand</div>`)[0];
+            popup_010806934e3246a5b5542990ed88595f.setContent(html_65206a3ecb0c44559f5c9c2a42fed6cc);
+        
+
+        marker_487f13b98bd94fda87f32a09a8804810.bindPopup(popup_010806934e3246a5b5542990ed88595f)
+        ;
+
+        
+    
+    
+            var marker_b005d8c3f7bd4940a63f7157eace8547 = L.marker(
+                [40.814358, -73.940659],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_3a0bbf00693d45de868593ed4d6c6882 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b005d8c3f7bd4940a63f7157eace8547.setIcon(icon_3a0bbf00693d45de868593ed4d6c6882);
+        
+    
+        var popup_c9713a4578714c67b20fa518396fd7cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb18881be214482abc84fb4e59e20fab = $(`<div id="html_cb18881be214482abc84fb4e59e20fab" style="width: 100.0%; height: 100.0%;">Harvest Home Harlem Hospital Farmers' Market</div>`)[0];
+            popup_c9713a4578714c67b20fa518396fd7cb.setContent(html_cb18881be214482abc84fb4e59e20fab);
+        
+
+        marker_b005d8c3f7bd4940a63f7157eace8547.bindPopup(popup_c9713a4578714c67b20fa518396fd7cb)
+        ;
+
+        
+    
+    
+            var marker_3d4e43d992a0486881855c8032f0da16 = L.marker(
+                [40.8179, -73.93809],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_7690deddc1d540609ab63136a6c619c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3d4e43d992a0486881855c8032f0da16.setIcon(icon_7690deddc1d540609ab63136a6c619c1);
+        
+    
+        var popup_f80a7c2c885245af822b7f2b76f11b3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_436338696a804ce08b1566e5a30717f7 = $(`<div id="html_436338696a804ce08b1566e5a30717f7" style="width: 100.0%; height: 100.0%;">Savoy Park Down to Earth Farmers' Market</div>`)[0];
+            popup_f80a7c2c885245af822b7f2b76f11b3e.setContent(html_436338696a804ce08b1566e5a30717f7);
+        
+
+        marker_3d4e43d992a0486881855c8032f0da16.bindPopup(popup_f80a7c2c885245af822b7f2b76f11b3e)
+        ;
+
+        
+    
+    
+            var marker_c69e2a196cc94206a7c9395da325dabc = L.marker(
+                [40.802317, -73.946351],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_3b5f7ccab0794fcd8fba79248c1a0bf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c69e2a196cc94206a7c9395da325dabc.setIcon(icon_3b5f7ccab0794fcd8fba79248c1a0bf2);
+        
+    
+        var popup_b8a1dd5073ea4e50bc73146947e0afcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd57487c6797410a87df5e72177fc7ec = $(`<div id="html_cd57487c6797410a87df5e72177fc7ec" style="width: 100.0%; height: 100.0%;">Milbank Center Go!Healthy Farm Stand</div>`)[0];
+            popup_b8a1dd5073ea4e50bc73146947e0afcd.setContent(html_cd57487c6797410a87df5e72177fc7ec);
+        
+
+        marker_c69e2a196cc94206a7c9395da325dabc.bindPopup(popup_b8a1dd5073ea4e50bc73146947e0afcd)
+        ;
+
+        
+    
+    
+            var marker_47c49b00952e4ddc8246992c80fa2020 = L.marker(
+                [40.880038, -73.907005],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_2b42bccc1c8443b09c2a5ea7e826b383 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_47c49b00952e4ddc8246992c80fa2020.setIcon(icon_2b42bccc1c8443b09c2a5ea7e826b383);
+        
+    
+        var popup_bea682c1a22d4f4b9a584af0072aa81f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78b138e31c9447d9a26bff129315d1dc = $(`<div id="html_78b138e31c9447d9a26bff129315d1dc" style="width: 100.0%; height: 100.0%;">Kingsbridge-Riverdale Farmers' Market</div>`)[0];
+            popup_bea682c1a22d4f4b9a584af0072aa81f.setContent(html_78b138e31c9447d9a26bff129315d1dc);
+        
+
+        marker_47c49b00952e4ddc8246992c80fa2020.bindPopup(popup_bea682c1a22d4f4b9a584af0072aa81f)
+        ;
+
+        
+    
+    
+            var marker_8f001487af904cd6adfc01be75abbb62 = L.marker(
+                [40.884532, -73.892172],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_6bf80f868ac94678b9647cf315b3289e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8f001487af904cd6adfc01be75abbb62.setIcon(icon_6bf80f868ac94678b9647cf315b3289e);
+        
+    
+        var popup_9fafbbdb1bec4b1689f5785b04512b87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99b4404797a045178595576aa383e4fb = $(`<div id="html_99b4404797a045178595576aa383e4fb" style="width: 100.0%; height: 100.0%;">Van Cortlandt Park Alliance Amalgamated Housing Youth Farmstand</div>`)[0];
+            popup_9fafbbdb1bec4b1689f5785b04512b87.setContent(html_99b4404797a045178595576aa383e4fb);
+        
+
+        marker_8f001487af904cd6adfc01be75abbb62.bindPopup(popup_9fafbbdb1bec4b1689f5785b04512b87)
+        ;
+
+        
+    
+    
+            var marker_b138606402d248c686b17f1911cab93d = L.marker(
+                [40.891762, -73.912208],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_01a6951fbd74492caddbbf37c2d41081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b138606402d248c686b17f1911cab93d.setIcon(icon_01a6951fbd74492caddbbf37c2d41081);
+        
+    
+        var popup_0ce8ec68ddee43eda149019140228664 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be94994cc1764e868d28bbeec8b2a6f8 = $(`<div id="html_be94994cc1764e868d28bbeec8b2a6f8" style="width: 100.0%; height: 100.0%;">Riverdale Y Sunday Farmers Market</div>`)[0];
+            popup_0ce8ec68ddee43eda149019140228664.setContent(html_be94994cc1764e868d28bbeec8b2a6f8);
+        
+
+        marker_b138606402d248c686b17f1911cab93d.bindPopup(popup_0ce8ec68ddee43eda149019140228664)
+        ;
+
+        
+    
+    
+            var marker_4eef5aa0ab4f4f87ba620ea269d14ef0 = L.marker(
+                [40.702445, -73.816861],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_408a6a8e7ce3487b803277426358a078 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4eef5aa0ab4f4f87ba620ea269d14ef0.setIcon(icon_408a6a8e7ce3487b803277426358a078);
+        
+    
+        var popup_8d053b96166e40e3bbddad945d462869 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd0ab636ed4c444796d155122b4d7087 = $(`<div id="html_fd0ab636ed4c444796d155122b4d7087" style="width: 100.0%; height: 100.0%;">Queens County Farm Museum Farm Stand at Jamaica Hospital</div>`)[0];
+            popup_8d053b96166e40e3bbddad945d462869.setContent(html_fd0ab636ed4c444796d155122b4d7087);
+        
+
+        marker_4eef5aa0ab4f4f87ba620ea269d14ef0.bindPopup(popup_8d053b96166e40e3bbddad945d462869)
+        ;
+
+        
+    
+    
+            var marker_8b73668551d3406ea83b15a0556228f9 = L.marker(
+                [40.700955, -73.841426],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_f9af81aac66f4949bed22714b41b6a57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8b73668551d3406ea83b15a0556228f9.setIcon(icon_f9af81aac66f4949bed22714b41b6a57);
+        
+    
+        var popup_5c42b7857b364d8f80af23d265cc8c62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcacc32a2e0e41ae8bbcbb9656422c13 = $(`<div id="html_dcacc32a2e0e41ae8bbcbb9656422c13" style="width: 100.0%; height: 100.0%;">Forest Park Farmstand</div>`)[0];
+            popup_5c42b7857b364d8f80af23d265cc8c62.setContent(html_dcacc32a2e0e41ae8bbcbb9656422c13);
+        
+
+        marker_8b73668551d3406ea83b15a0556228f9.bindPopup(popup_5c42b7857b364d8f80af23d265cc8c62)
+        ;
+
+        
+    
+    
+            var marker_5daeaeaa6bc8433999e19a9f7253a2e2 = L.marker(
+                [40.665296, -73.886557],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_07f9276f804f49af836db6e84aa326c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5daeaeaa6bc8433999e19a9f7253a2e2.setIcon(icon_07f9276f804f49af836db6e84aa326c9);
+        
+    
+        var popup_7de96017eed74f4eae9dcd2045448d68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50fe71be426341a48ad48da12feba551 = $(`<div id="html_50fe71be426341a48ad48da12feba551" style="width: 100.0%; height: 100.0%;">East New York Farmers' Market</div>`)[0];
+            popup_7de96017eed74f4eae9dcd2045448d68.setContent(html_50fe71be426341a48ad48da12feba551);
+        
+
+        marker_5daeaeaa6bc8433999e19a9f7253a2e2.bindPopup(popup_7de96017eed74f4eae9dcd2045448d68)
+        ;
+
+        
+    
+    
+            var marker_6108f6f40ce0441f9882f505e72e7446 = L.marker(
+                [40.682391, -73.876616],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_0087ea1b44644ccfb92bfa303264da5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6108f6f40ce0441f9882f505e72e7446.setIcon(icon_0087ea1b44644ccfb92bfa303264da5e);
+        
+    
+        var popup_520f8962ab984848b3ca20ca0e5be1b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95740fdd447247d9b5e6a46f400670e2 = $(`<div id="html_95740fdd447247d9b5e6a46f400670e2" style="width: 100.0%; height: 100.0%;">Cypress Hills Farmstand</div>`)[0];
+            popup_520f8962ab984848b3ca20ca0e5be1b2.setContent(html_95740fdd447247d9b5e6a46f400670e2);
+        
+
+        marker_6108f6f40ce0441f9882f505e72e7446.bindPopup(popup_520f8962ab984848b3ca20ca0e5be1b2)
+        ;
+
+        
+    
+    
+            var marker_827c7035782a4899a1903c457fc2a0bb = L.marker(
+                [40.671977, -73.895248],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_144b9cce8236474e9c2414823dc9e094 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_827c7035782a4899a1903c457fc2a0bb.setIcon(icon_144b9cce8236474e9c2414823dc9e094);
+        
+    
+        var popup_4f607cf428ae4c8cb15c7ceea2c0208a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8206222d92964d0d9207520616534b51 = $(`<div id="html_8206222d92964d0d9207520616534b51" style="width: 100.0%; height: 100.0%;">Brownsville/ENY - Health & Hospitals East New York</div>`)[0];
+            popup_4f607cf428ae4c8cb15c7ceea2c0208a.setContent(html_8206222d92964d0d9207520616534b51);
+        
+
+        marker_827c7035782a4899a1903c457fc2a0bb.bindPopup(popup_4f607cf428ae4c8cb15c7ceea2c0208a)
+        ;
+
+        
+    
+    
+            var marker_32e84cc959bf4edfbf20bfe20137edc3 = L.marker(
+                [40.638983, -74.097422],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_d07aa7a48e584b518059fb126e272c9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_32e84cc959bf4edfbf20bfe20137edc3.setIcon(icon_d07aa7a48e584b518059fb126e272c9b);
+        
+    
+        var popup_ec4e9c58ab9d49e88b30d9e696b08048 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f33bf215b014ec4bade1cfbd6a8cf60 = $(`<div id="html_5f33bf215b014ec4bade1cfbd6a8cf60" style="width: 100.0%; height: 100.0%;">Goodhue Center Go!Healthy Farm Stand</div>`)[0];
+            popup_ec4e9c58ab9d49e88b30d9e696b08048.setContent(html_5f33bf215b014ec4bade1cfbd6a8cf60);
+        
+
+        marker_32e84cc959bf4edfbf20bfe20137edc3.bindPopup(popup_ec4e9c58ab9d49e88b30d9e696b08048)
+        ;
+
+        
+    
+    
+            var marker_658fc2fb0f47465f82e5a8a3b0668598 = L.marker(
+                [40.641586, -74.0779],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_1a683ebde3374706a7ff70550abd177d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_658fc2fb0f47465f82e5a8a3b0668598.setIcon(icon_1a683ebde3374706a7ff70550abd177d);
+        
+    
+        var popup_1f5eed52513e4bf89e8207c6e5bb3c29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_743b443fb91645d19145dde8c7fce552 = $(`<div id="html_743b443fb91645d19145dde8c7fce552" style="width: 100.0%; height: 100.0%;">St. George Greenmarket</div>`)[0];
+            popup_1f5eed52513e4bf89e8207c6e5bb3c29.setContent(html_743b443fb91645d19145dde8c7fce552);
+        
+
+        marker_658fc2fb0f47465f82e5a8a3b0668598.bindPopup(popup_1f5eed52513e4bf89e8207c6e5bb3c29)
+        ;
+
+        
+    
+    
+            var marker_f086c31d11c74dac89728680ccdabc84 = L.marker(
+                [40.769117, -73.988559],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_f3afa3ccad2b4e43b061932f89070eee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f086c31d11c74dac89728680ccdabc84.setIcon(icon_f3afa3ccad2b4e43b061932f89070eee);
+        
+    
+        var popup_672769572490436bb2dbe6d25e3da580 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da44aec8288644ca8699294383ceec5c = $(`<div id="html_da44aec8288644ca8699294383ceec5c" style="width: 100.0%; height: 100.0%;">57th Street Greenmarket</div>`)[0];
+            popup_672769572490436bb2dbe6d25e3da580.setContent(html_da44aec8288644ca8699294383ceec5c);
+        
+
+        marker_f086c31d11c74dac89728680ccdabc84.bindPopup(popup_672769572490436bb2dbe6d25e3da580)
+        ;
+
+        
+    
+    
+            var marker_c885d237e84b4ade81d49fb2ff4a3bfe = L.marker(
+                [40.744006, -73.999415],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_c378dd42cff7432299c5485efa0cf0a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c885d237e84b4ade81d49fb2ff4a3bfe.setIcon(icon_c378dd42cff7432299c5485efa0cf0a2);
+        
+    
+        var popup_83daed07f1db4a8c9888cdd02fbdc877 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58abdb4d66e247299111916f2dd6e6a1 = $(`<div id="html_58abdb4d66e247299111916f2dd6e6a1" style="width: 100.0%; height: 100.0%;">PS 11 Farm Market</div>`)[0];
+            popup_83daed07f1db4a8c9888cdd02fbdc877.setContent(html_58abdb4d66e247299111916f2dd6e6a1);
+        
+
+        marker_c885d237e84b4ade81d49fb2ff4a3bfe.bindPopup(popup_83daed07f1db4a8c9888cdd02fbdc877)
+        ;
+
+        
+    
+    
+            var marker_d2627d3352304b2a8af585ae12c18fe4 = L.marker(
+                [40.745293, -73.998488],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_e458691da2184c578fef12d5bf452f7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d2627d3352304b2a8af585ae12c18fe4.setIcon(icon_e458691da2184c578fef12d5bf452f7d);
+        
+    
+        var popup_4d33fff84b4a40f68961a2fc8cce197f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caad58fc2a144237825bf7b04db4cfe9 = $(`<div id="html_caad58fc2a144237825bf7b04db4cfe9" style="width: 100.0%; height: 100.0%;">Chelsea's Down to Earth Farmers Market</div>`)[0];
+            popup_4d33fff84b4a40f68961a2fc8cce197f.setContent(html_caad58fc2a144237825bf7b04db4cfe9);
+        
+
+        marker_d2627d3352304b2a8af585ae12c18fe4.bindPopup(popup_4d33fff84b4a40f68961a2fc8cce197f)
+        ;
+
+        
+    
+    
+            var marker_708e004e12c04606930c454cd10468c0 = L.marker(
+                [40.609951, -73.999456],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_ca0c7d4d22e04c6480f2ea11dd96e380 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_708e004e12c04606930c454cd10468c0.setIcon(icon_ca0c7d4d22e04c6480f2ea11dd96e380);
+        
+    
+        var popup_6361e39accaf41aaaa5eaf4fc2a3a70b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b3a700a0ce245239b49ee2793dec6d6 = $(`<div id="html_0b3a700a0ce245239b49ee2793dec6d6" style="width: 100.0%; height: 100.0%;">Bensonhurst Greenmarket</div>`)[0];
+            popup_6361e39accaf41aaaa5eaf4fc2a3a70b.setContent(html_0b3a700a0ce245239b49ee2793dec6d6);
+        
+
+        marker_708e004e12c04606930c454cd10468c0.bindPopup(popup_6361e39accaf41aaaa5eaf4fc2a3a70b)
+        ;
+
+        
+    
+    
+            var marker_b6da68ee91644fd1a53a816eefe8b1ed = L.marker(
+                [40.693722, -73.990455],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_bc5716b744954a428556a6bdbb52de8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b6da68ee91644fd1a53a816eefe8b1ed.setIcon(icon_bc5716b744954a428556a6bdbb52de8d);
+        
+    
+        var popup_63b9a6e9760c490ea1cbb29434f12c32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_964a33181fc24fa8806213184334f933 = $(`<div id="html_964a33181fc24fa8806213184334f933" style="width: 100.0%; height: 100.0%;">Brooklyn Borough Hall Greenmarket</div>`)[0];
+            popup_63b9a6e9760c490ea1cbb29434f12c32.setContent(html_964a33181fc24fa8806213184334f933);
+        
+
+        marker_b6da68ee91644fd1a53a816eefe8b1ed.bindPopup(popup_63b9a6e9760c490ea1cbb29434f12c32)
+        ;
+
+        
+    
+    
+            var marker_fbf4ec46f5fc428b8302ea7930a9c9b8 = L.marker(
+                [40.691707, -73.973539],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_12aee68a8a1043008faf2eca75ed8d75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fbf4ec46f5fc428b8302ea7930a9c9b8.setIcon(icon_12aee68a8a1043008faf2eca75ed8d75);
+        
+    
+        var popup_bcdf4f0b920a4819afef89c8cd6a85f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c55f48b1c4349c18194dd0f0085316f = $(`<div id="html_0c55f48b1c4349c18194dd0f0085316f" style="width: 100.0%; height: 100.0%;">Fort Greene Park Greenmarket</div>`)[0];
+            popup_bcdf4f0b920a4819afef89c8cd6a85f5.setContent(html_0c55f48b1c4349c18194dd0f0085316f);
+        
+
+        marker_fbf4ec46f5fc428b8302ea7930a9c9b8.bindPopup(popup_bcdf4f0b920a4819afef89c8cd6a85f5)
+        ;
+
+        
+    
+    
+            var marker_ebccb29f512d45d68fc3adeef82e8d8b = L.marker(
+                [40.813884, -73.911812],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_2d20508fcf994f21992fe3fb30c67233 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ebccb29f512d45d68fc3adeef82e8d8b.setIcon(icon_2d20508fcf994f21992fe3fb30c67233);
+        
+    
+        var popup_c4fea51df5144eceb626ee5eca3fd3c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d555f71549cc4536ab1b569a8ee3e8fa = $(`<div id="html_d555f71549cc4536ab1b569a8ee3e8fa" style="width: 100.0%; height: 100.0%;">Harvest Home St. Mary's Park Farm Stand</div>`)[0];
+            popup_c4fea51df5144eceb626ee5eca3fd3c8.setContent(html_d555f71549cc4536ab1b569a8ee3e8fa);
+        
+
+        marker_ebccb29f512d45d68fc3adeef82e8d8b.bindPopup(popup_c4fea51df5144eceb626ee5eca3fd3c8)
+        ;
+
+        
+    
+    
+            var marker_d3d779f7954947ecad06004fa9ed6e9b = L.marker(
+                [40.809973, -73.916434],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_03aa9f4fa1f947259dadd55e65c45c02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d3d779f7954947ecad06004fa9ed6e9b.setIcon(icon_03aa9f4fa1f947259dadd55e65c45c02);
+        
+    
+        var popup_c4056e5e449645c096e8786689ac67ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddbeb9685b964b62b6673360abe4be1c = $(`<div id="html_ddbeb9685b964b62b6673360abe4be1c" style="width: 100.0%; height: 100.0%;">Mott Haven Farmers Market</div>`)[0];
+            popup_c4056e5e449645c096e8786689ac67ae.setContent(html_ddbeb9685b964b62b6673360abe4be1c);
+        
+
+        marker_d3d779f7954947ecad06004fa9ed6e9b.bindPopup(popup_c4056e5e449645c096e8786689ac67ae)
+        ;
+
+        
+    
+    
+            var marker_b89dea01332a4e479af61587ae7046b8 = L.marker(
+                [40.655828, -73.943355],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_3377248e6dbe48128f4acfedc3999b54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b89dea01332a4e479af61587ae7046b8.setIcon(icon_3377248e6dbe48128f4acfedc3999b54);
+        
+    
+        var popup_fffb798dbb1a4930a9a1ecd8ec31f4ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db283e4dfc284cadb1ffd3a7f0b6b38c = $(`<div id="html_db283e4dfc284cadb1ffd3a7f0b6b38c" style="width: 100.0%; height: 100.0%;">Harvest Home Kings County Hospital Farmers' Market</div>`)[0];
+            popup_fffb798dbb1a4930a9a1ecd8ec31f4ea.setContent(html_db283e4dfc284cadb1ffd3a7f0b6b38c);
+        
+
+        marker_b89dea01332a4e479af61587ae7046b8.bindPopup(popup_fffb798dbb1a4930a9a1ecd8ec31f4ea)
+        ;
+
+        
+    
+    
+            var marker_e18bf94d2c0c4820905cb9566ff306e7 = L.marker(
+                [40.64497, -73.920914],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_f7ec27b8aeda4905a04a19ff24b5c5b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e18bf94d2c0c4820905cb9566ff306e7.setIcon(icon_f7ec27b8aeda4905a04a19ff24b5c5b1);
+        
+    
+        var popup_2cfb38b1c7bc4c2aafb265ce9a6e8a04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5dcdcdd37134b1bb925a9f0e883f9a9 = $(`<div id="html_b5dcdcdd37134b1bb925a9f0e883f9a9" style="width: 100.0%; height: 100.0%;">Wyckoff House Museum Farm Stand</div>`)[0];
+            popup_2cfb38b1c7bc4c2aafb265ce9a6e8a04.setContent(html_b5dcdcdd37134b1bb925a9f0e883f9a9);
+        
+
+        marker_e18bf94d2c0c4820905cb9566ff306e7.bindPopup(popup_2cfb38b1c7bc4c2aafb265ce9a6e8a04)
+        ;
+
+        
+    
+    
+            var marker_3006142b0ad3408ca6a3b1f7bc3cfa5e = L.marker(
+                [40.780691, -73.946592],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_ed7267ed2afe49e08f51104e8dcf937c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3006142b0ad3408ca6a3b1f7bc3cfa5e.setIcon(icon_ed7267ed2afe49e08f51104e8dcf937c);
+        
+    
+        var popup_257fc558ba414a539614c8be01168092 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b55c87c423f945a5bf1a86d4a15e71b5 = $(`<div id="html_b55c87c423f945a5bf1a86d4a15e71b5" style="width: 100.0%; height: 100.0%;">92nd Street Greenmarket</div>`)[0];
+            popup_257fc558ba414a539614c8be01168092.setContent(html_b55c87c423f945a5bf1a86d4a15e71b5);
+        
+
+        marker_3006142b0ad3408ca6a3b1f7bc3cfa5e.bindPopup(popup_257fc558ba414a539614c8be01168092)
+        ;
+
+        
+    
+    
+            var marker_5f9316e8f276412fbdebdc60ac615aab = L.marker(
+                [40.774292, -73.951262],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_da047567416641bcadd273ad7aabe68c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5f9316e8f276412fbdebdc60ac615aab.setIcon(icon_da047567416641bcadd273ad7aabe68c);
+        
+    
+        var popup_6edaa3549cf0420d92a88676bd1c00c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f86e24ddd34a4c77aaf020733a6fa8cb = $(`<div id="html_f86e24ddd34a4c77aaf020733a6fa8cb" style="width: 100.0%; height: 100.0%;">82nd Street Greenmarket</div>`)[0];
+            popup_6edaa3549cf0420d92a88676bd1c00c6.setContent(html_f86e24ddd34a4c77aaf020733a6fa8cb);
+        
+
+        marker_5f9316e8f276412fbdebdc60ac615aab.bindPopup(popup_6edaa3549cf0420d92a88676bd1c00c6)
+        ;
+
+        
+    
+    
+            var marker_5225a5bc9aaf432591713765c9ccc1dc = L.marker(
+                [40.870249, -73.830963],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_15ea591f10e940a085fb6336703de56a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5225a5bc9aaf432591713765c9ccc1dc.setIcon(icon_15ea591f10e940a085fb6336703de56a);
+        
+    
+        var popup_853a3e8c7a5b4182a59044eec56a171e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3cf61d8b33e43c9b476341be48c026e = $(`<div id="html_d3cf61d8b33e43c9b476341be48c026e" style="width: 100.0%; height: 100.0%;">Harvest Home Co-op City Farm Stand</div>`)[0];
+            popup_853a3e8c7a5b4182a59044eec56a171e.setContent(html_d3cf61d8b33e43c9b476341be48c026e);
+        
+
+        marker_5225a5bc9aaf432591713765c9ccc1dc.bindPopup(popup_853a3e8c7a5b4182a59044eec56a171e)
+        ;
+
+        
+    
+    
+            var marker_137bb13bf5284093a9cd86d94e43bdbc = L.marker(
+                [40.691804, -73.951863],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_6a03382b05ac4d69881753a345fdf1bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_137bb13bf5284093a9cd86d94e43bdbc.setIcon(icon_6a03382b05ac4d69881753a345fdf1bc);
+        
+    
+        var popup_3bb5d16968814f85a040926065b85f1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dec14213cb94663839f46f7973d9aec = $(`<div id="html_2dec14213cb94663839f46f7973d9aec" style="width: 100.0%; height: 100.0%;">Seeds in the Middle Fresh Food Box / Farmstand - Flatbush</div>`)[0];
+            popup_3bb5d16968814f85a040926065b85f1e.setContent(html_2dec14213cb94663839f46f7973d9aec);
+        
+
+        marker_137bb13bf5284093a9cd86d94e43bdbc.bindPopup(popup_3bb5d16968814f85a040926065b85f1e)
+        ;
+
+        
+    
+    
+            var marker_f67b54e8cda74fab91bcdeb1c98e6b90 = L.marker(
+                [40.690036, -73.943557],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_2244e21eeaaa441a85377b9d56f6280e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f67b54e8cda74fab91bcdeb1c98e6b90.setIcon(icon_2244e21eeaaa441a85377b9d56f6280e);
+        
+    
+        var popup_223f1e4b824b45ad94d0d26e2b7a1bc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19a385f07cb0462992a59a8973ddf33b = $(`<div id="html_19a385f07cb0462992a59a8973ddf33b" style="width: 100.0%; height: 100.0%;">Hattie Carthan After Church Farmers' Market</div>`)[0];
+            popup_223f1e4b824b45ad94d0d26e2b7a1bc4.setContent(html_19a385f07cb0462992a59a8973ddf33b);
+        
+
+        marker_f67b54e8cda74fab91bcdeb1c98e6b90.bindPopup(popup_223f1e4b824b45ad94d0d26e2b7a1bc4)
+        ;
+
+        
+    
+    
+            var marker_421edaba431b428096a73df1b9d47d6f = L.marker(
+                [40.689511, -73.948039],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_6aaf4f34bd3341d597d4e366f513bc2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_421edaba431b428096a73df1b9d47d6f.setIcon(icon_6aaf4f34bd3341d597d4e366f513bc2d);
+        
+    
+        var popup_ce195e7bd0e24c1f8e9dc674b97dd6dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_932abdc7480c45088fce06eb9bc7d505 = $(`<div id="html_932abdc7480c45088fce06eb9bc7d505" style="width: 100.0%; height: 100.0%;">Hattie Carthan Community Farmers' Market</div>`)[0];
+            popup_ce195e7bd0e24c1f8e9dc674b97dd6dc.setContent(html_932abdc7480c45088fce06eb9bc7d505);
+        
+
+        marker_421edaba431b428096a73df1b9d47d6f.bindPopup(popup_ce195e7bd0e24c1f8e9dc674b97dd6dc)
+        ;
+
+        
+    
+    
+            var marker_14da34339d8140e681ab89f96e81ee77 = L.marker(
+                [40.700123, -73.90621],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_e6ae73fbcece477d88ad01e4c18f185a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_14da34339d8140e681ab89f96e81ee77.setIcon(icon_e6ae73fbcece477d88ad01e4c18f185a);
+        
+    
+        var popup_0141a29783e34eafa386d041edb573d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_986db02de6f64f7da12b70f2eefc45f7 = $(`<div id="html_986db02de6f64f7da12b70f2eefc45f7" style="width: 100.0%; height: 100.0%;">Ridgewood Farmstand</div>`)[0];
+            popup_0141a29783e34eafa386d041edb573d4.setContent(html_986db02de6f64f7da12b70f2eefc45f7);
+        
+
+        marker_14da34339d8140e681ab89f96e81ee77.bindPopup(popup_0141a29783e34eafa386d041edb573d4)
+        ;
+
+        
+    
+    
+            var marker_1d8481dfa78c47dbaa49ff7f5e5af6e5 = L.marker(
+                [40.833734, -73.889934],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_f449cfa2460d4767ae1c9bd52fd81dd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1d8481dfa78c47dbaa49ff7f5e5af6e5.setIcon(icon_f449cfa2460d4767ae1c9bd52fd81dd0);
+        
+    
+        var popup_016bc900e23a4ec58af8752f7ac113ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_220c1177b78f4668870979e931e0b640 = $(`<div id="html_220c1177b78f4668870979e931e0b640" style="width: 100.0%; height: 100.0%;">Bronx Family Center Go!Healthy Farm Stand</div>`)[0];
+            popup_016bc900e23a4ec58af8752f7ac113ec.setContent(html_220c1177b78f4668870979e931e0b640);
+        
+
+        marker_1d8481dfa78c47dbaa49ff7f5e5af6e5.bindPopup(popup_016bc900e23a4ec58af8752f7ac113ec)
+        ;
+
+        
+    
+    
+            var marker_ffab6462a1004177bef3877e47b516d1 = L.marker(
+                [40.831117, -73.90071],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_3416e4858fa84f35a3b558909951a1fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ffab6462a1004177bef3877e47b516d1.setIcon(icon_3416e4858fa84f35a3b558909951a1fa);
+        
+    
+        var popup_125e8c53af51450dbfa40725a4bcd344 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_790f7e05295e4b26a1dec51905fc3085 = $(`<div id="html_790f7e05295e4b26a1dec51905fc3085" style="width: 100.0%; height: 100.0%;">Morrisania Farmstand</div>`)[0];
+            popup_125e8c53af51450dbfa40725a4bcd344.setContent(html_790f7e05295e4b26a1dec51905fc3085);
+        
+
+        marker_ffab6462a1004177bef3877e47b516d1.bindPopup(popup_125e8c53af51450dbfa40725a4bcd344)
+        ;
+
+        
+    
+    
+            var marker_4b1f3f8ca1cf4cc594974b27815f4bd7 = L.marker(
+                [40.730079, -73.992842],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_b942818a6bd04f61a753ac93b26d56af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4b1f3f8ca1cf4cc594974b27815f4bd7.setIcon(icon_b942818a6bd04f61a753ac93b26d56af);
+        
+    
+        var popup_d2052d1da8854197a8f9c6cddcee598b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba47adc5c3474171add587685e221829 = $(`<div id="html_ba47adc5c3474171add587685e221829" style="width: 100.0%; height: 100.0%;">Astor Place Greenmarket</div>`)[0];
+            popup_d2052d1da8854197a8f9c6cddcee598b.setContent(html_ba47adc5c3474171add587685e221829);
+        
+
+        marker_4b1f3f8ca1cf4cc594974b27815f4bd7.bindPopup(popup_d2052d1da8854197a8f9c6cddcee598b)
+        ;
+
+        
+    
+    
+            var marker_beb93acd54d14bc2934c44c2c577b0fa = L.marker(
+                [40.737553, -74.005687],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_82466c9ed431457b8162ac303e6492da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_beb93acd54d14bc2934c44c2c577b0fa.setIcon(icon_82466c9ed431457b8162ac303e6492da);
+        
+    
+        var popup_0cf910cc4be2467399e0b7e2d3a84099 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ade2c9356ed8416a8bdaf3634fe47b0b = $(`<div id="html_ade2c9356ed8416a8bdaf3634fe47b0b" style="width: 100.0%; height: 100.0%;">Abingdon Square Greenmarket</div>`)[0];
+            popup_0cf910cc4be2467399e0b7e2d3a84099.setContent(html_ade2c9356ed8416a8bdaf3634fe47b0b);
+        
+
+        marker_beb93acd54d14bc2934c44c2c577b0fa.bindPopup(popup_0cf910cc4be2467399e0b7e2d3a84099)
+        ;
+
+        
+    
+    
+            var marker_6ad6821d7955448f87da6d91b34ae3e4 = L.marker(
+                [40.58667, -73.96615],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_bac293d125a74f859fd683559df7645b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6ad6821d7955448f87da6d91b34ae3e4.setIcon(icon_bac293d125a74f859fd683559df7645b);
+        
+    
+        var popup_c1bd3db5fc6c4befa10bf0639c755d61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_568591d1e0cd45259166476d0c9c9f03 = $(`<div id="html_568591d1e0cd45259166476d0c9c9f03" style="width: 100.0%; height: 100.0%;">Harvest Home Coney Island Hospital Farmers' Market</div>`)[0];
+            popup_c1bd3db5fc6c4befa10bf0639c755d61.setContent(html_568591d1e0cd45259166476d0c9c9f03);
+        
+
+        marker_6ad6821d7955448f87da6d91b34ae3e4.bindPopup(popup_c1bd3db5fc6c4befa10bf0639c755d61)
+        ;
+
+        
+    
+    
+            var marker_55483da1573d4f9cb641e729cd4bd199 = L.marker(
+                [40.617278, -74.033588],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_5f842f4afd2143d883bbe81fe4b6ca80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_55483da1573d4f9cb641e729cd4bd199.setIcon(icon_5f842f4afd2143d883bbe81fe4b6ca80);
+        
+    
+        var popup_ac947111b86e4120b78e03c72687841e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd43319edba94177ba47885d18ed0f2d = $(`<div id="html_dd43319edba94177ba47885d18ed0f2d" style="width: 100.0%; height: 100.0%;">Bay Ridge Greenmarket</div>`)[0];
+            popup_ac947111b86e4120b78e03c72687841e.setContent(html_dd43319edba94177ba47885d18ed0f2d);
+        
+
+        marker_55483da1573d4f9cb641e729cd4bd199.bindPopup(popup_ac947111b86e4120b78e03c72687841e)
+        ;
+
+        
+    
+    
+            var marker_4a8fe2b11cb540dc9d6b250a5ffec630 = L.marker(
+                [40.820986, -73.891613],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_f062f08fb04941729c642a65792f13bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4a8fe2b11cb540dc9d6b250a5ffec630.setIcon(icon_f062f08fb04941729c642a65792f13bd);
+        
+    
+        var popup_1d48b7c194794322b145e47d4145438d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_853490ecf03145adb352e6b3cb66c613 = $(`<div id="html_853490ecf03145adb352e6b3cb66c613" style="width: 100.0%; height: 100.0%;">Harvest Home Hunts Point Farm Stand</div>`)[0];
+            popup_1d48b7c194794322b145e47d4145438d.setContent(html_853490ecf03145adb352e6b3cb66c613);
+        
+
+        marker_4a8fe2b11cb540dc9d6b250a5ffec630.bindPopup(popup_1d48b7c194794322b145e47d4145438d)
+        ;
+
+        
+    
+    
+            var marker_495aa66c0e9443929d49b04de98fed89 = L.marker(
+                [40.583804, -74.161245],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_a3409d340220485b8e7e1c5ec3bf8361 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_495aa66c0e9443929d49b04de98fed89.setIcon(icon_a3409d340220485b8e7e1c5ec3bf8361);
+        
+    
+        var popup_3e1ef71576f94183a0a8025168f37711 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c41c95474474022a08bc0e4b1595941 = $(`<div id="html_2c41c95474474022a08bc0e4b1595941" style="width: 100.0%; height: 100.0%;">Staten Island Mall Greenmarket</div>`)[0];
+            popup_3e1ef71576f94183a0a8025168f37711.setContent(html_2c41c95474474022a08bc0e4b1595941);
+        
+
+        marker_495aa66c0e9443929d49b04de98fed89.bindPopup(popup_3e1ef71576f94183a0a8025168f37711)
+        ;
+
+        
+    
+    
+            var marker_1a96ac04eb0449869e16be39530d9482 = L.marker(
+                [40.674007, -73.944544],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_4fcbac292769435e93a313220d2cbf72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1a96ac04eb0449869e16be39530d9482.setIcon(icon_4fcbac292769435e93a313220d2cbf72);
+        
+    
+        var popup_10af882e48764eb696494f6524f3f3c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbb7167b2b064be1ae3a8a5957c33558 = $(`<div id="html_bbb7167b2b064be1ae3a8a5957c33558" style="width: 100.0%; height: 100.0%;">Harvest Home Brower Park Farm Stand</div>`)[0];
+            popup_10af882e48764eb696494f6524f3f3c2.setContent(html_bbb7167b2b064be1ae3a8a5957c33558);
+        
+
+        marker_1a96ac04eb0449869e16be39530d9482.bindPopup(popup_10af882e48764eb696494f6524f3f3c2)
+        ;
+
+        
+    
+    
+            var marker_50e8ad9f3a224793b1d1028c9afa78e3 = L.marker(
+                [40.72188, -73.846383],
+                {}
+            ).addTo(marker_cluster_3490acb4e25f424fbc771578be1d55a8);
+        
+    
+            var icon_161195a165d74a5586c28564cc018b9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_50e8ad9f3a224793b1d1028c9afa78e3.setIcon(icon_161195a165d74a5586c28564cc018b9e);
+        
+    
+        var popup_be3103aebf2649f7a57a5b6bcdbf2cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d33eadc3ff545cba92f163ad03f0e34 = $(`<div id="html_1d33eadc3ff545cba92f163ad03f0e34" style="width: 100.0%; height: 100.0%;">Forest Hills Greenmarket</div>`)[0];
+            popup_be3103aebf2649f7a57a5b6bcdbf2cd9.setContent(html_1d33eadc3ff545cba92f163ad03f0e34);
+        
+
+        marker_50e8ad9f3a224793b1d1028c9afa78e3.bindPopup(popup_be3103aebf2649f7a57a5b6bcdbf2cd9)
+        ;
+
+        
+    
+</script>
