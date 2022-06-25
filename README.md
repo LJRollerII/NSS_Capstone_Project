@@ -4,15 +4,17 @@
 * [Motivation](#Header)
 * [Proposed Question](#Header)
 * [Hypothesis](#Header)
+* [Calculations](#Header)
 * [Conclusion](#Header)
 * [Further Investigation](#Header)
 * [Data Sources & Tools](#Header)
 
 # Motivation
-
+When I think about it, my selected topic has been something I’ve always been interested in based on the many conversations my sister and I would have over the years. As a native New Yorker, I’ve been fortunate to experience the world-renowned culinary scene the city has to offer. No matter what culture it is, if you want to experience it, you can find it in New York.  Although New York has plenty of options for food when it comes to eating out, can we say the same when it comes to buying your own food to cook? Do we have enough grocery stores around the city to meet the demand of a population of almost 9 million people? Out of the all the grocery stores located in the city, how many of them can we say sell healthy/quality food? Is the food even affordable for everyone?
 
 
 Back to [Contents](#Header)
+
 
 # Proposed Question
 What areas of New York City have the best and/or most options when it comes to buying healthy and fresh foods?
@@ -32,7 +34,17 @@ I predict the that Brooklyn will be the borough with the most access to healthy 
 
 Back to [Contents](#Header)
 
+# Calculations
+For this project, areas that have the best access to healthy foods will be the ones that have the highest combinations of farmers markets, recognized shop healthy stores, and SNAP centers.
+
+The same formula will be used to determine which borough has the best access to healthy foods.
+
+Back to [Contents](#Header)
+
 # Conclusion
+
+[NYC Healthy Food Access Presentation](https://public.tableau.com/app/profile/lance.roller/viz/NYC_Healthy_Food_Access/NYCHealthyFoodAccess?publish=yes)
+
 * The Bronx with a slight edge over Brooklyn is the borough with the best and/or most options when it comes to buying healthy and fresh foods.
 * Community Districts 111, 205, 206, 305, & 316 are the community districts that have the best options.
 * * Part of this is due to the fact that the city government is having success getting underserved communities access to better food with the Shop Healthy NYC program. 
@@ -58,19 +70,19 @@ Back to [Contents](#Header)
 
 **Tools**
 
-Python/Jupyter Notebooks for gathering and analysis of data
+Python/Jupyter Notebook, SQL, and Excel for gathering and analysis of data
 
-Tableau for data visualization
+Tableau and Powerpoint for data visualization
 
 **Data Sources**
 
-From the City of New York
+<u>From the City of New York</u>
 
-GeoJson: 
+<u>GeoJson: </u>
 
 [Community Districts](https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4)
 
-CSV:
+<u>CSV:</u>
 
 [NYC Community District Demographics](https://communityprofiles.planning.nyc.gov/)
 
